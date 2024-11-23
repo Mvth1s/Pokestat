@@ -20,7 +20,7 @@ class PokemonView {
 			"Ice Type": "#98D8D8",
 			"Dragon Type": "#7038F8",
 			"Dark Type": "#2c2a29",
-			"Fairy Type": "#EE99AC",
+			// "Fairy Type": "#EE99AC",
 			unknown: "#828282",
 		};
 	}
@@ -98,7 +98,7 @@ class PokemonView {
 			"Ice Type": "Glace",
 			"Dragon Type": "Dragon",
 			"Dark Type": "Ténèbres",
-			"Fairy Type": "Fée",
+			// "Fairy Type": "Fée",
 		};
 		return typeTranslations[typeName] || typeName;
 	}
