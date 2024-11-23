@@ -35,7 +35,7 @@ header {
     text-align: center;
     color: white;
     transition: transform 0.2s;
-    background-color: #2a75bb; /* Ajout de la couleur de fond pour le texte blanc */
+    background-color: #4e4e4e; /* Ajout de la couleur de fond pour le texte blanc */
 }
 
 .pokemon-card:hover {
@@ -59,4 +59,8 @@ header {
 
 .pokemon-types {
     margin: 10px 0;
+}
+.PokemonName{
+    text-decoration: none;
+    color: white;
 }
