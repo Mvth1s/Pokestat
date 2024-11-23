@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pokémon stats</title>
+		<link
+			rel="shortcut icon"
+			href="img/Pokemon-Symbol-logo.png"
+			type="image/x-icon" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Pokémon Stats</h1>
+		</header>
+		<div class="cards-container" id="cards-container"></div>
+
+		<script src="model/model.js"></script>
+		<script src="views/views.js"></script>
+		<script src="controller/controller.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				const model = new PokemonModel();
+				const view = new PokemonView();
+				const controller = new PokemonController(model, view);
+			});
+		</script>
+	</body>
+</html>
