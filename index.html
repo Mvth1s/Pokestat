@@ -12,24 +12,24 @@
 			<h1>Pokémon Stats</h1>
 			<select id="type-selector">
 				<option value="all">Tous les types</option>
-				<option value="normal">Normal</option>
-				<option value="fighting">Combat</option>
-				<option value="flying">Vol</option>
-				<option value="poison">Poison</option>
-				<option value="ground">Sol</option>
-				<option value="rock">Roche</option>
-				<option value="bug">Insecte</option>
-				<option value="ghost">Spectre</option>
-				<option value="steel">Acier</option>
-				<option value="fire">Feu</option>
-				<option value="water">Eau</option>
-				<option value="grass">Plante</option>
-				<option value="electric">Électrik</option>
-				<option value="psychic">Psy</option>
-				<option value="ice">Glace</option>
-				<option value="dragon">Dragon</option>
-				<option value="dark">Ténèbres</option>
-				<option value="fairy">Fée</option>
+				<option value="Normal Type">Normal</option>
+				<option value="Fighting Type">Combat</option>
+				<option value="Flying Type">Vol</option>
+				<option value="Poison Type">Poison</option>
+				<option value="Ground Type">Sol</option>
+				<option value="Rock Type">Roche</option>
+				<option value="Bug Type">Insecte</option>
+				<option value="Ghost Type">Spectre</option>
+				<option value="Steel Type">Acier</option>
+				<option value="Fire Type">Feu</option>
+				<option value="Water Type">Eau</option>
+				<option value="Grass Type">Plante</option>
+				<option value="Electric Type">Électrik</option>
+				<option value="Psychic Type">Psy</option>
+				<option value="Ice Type">Glace</option>
+				<option value="Dragon Type">Dragon</option>
+				<option value="Dark Type">Ténèbres</option>
+				<option value="Fairy Type">Fée</option>
 			</select>
 		</header>
 		<div class="cards-container" id="cards-container"></div>
@@ -40,8 +40,9 @@
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
 				const model = new PokemonModel();
+				const statModel = new PokemonStatModel();
 				const view = new PokemonView();
-				const controller = new PokemonController(model, view);
+				const controller = new PokemonController(model, statModel, view);
 			});
 		</script>
 	</body>

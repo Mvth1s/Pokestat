@@ -1,7 +1,7 @@
-// controller.js
 class PokemonController {
-    constructor(model, view) {
+    constructor(model, statModel, view) {
         this.model = model;
+        this.statModel = statModel;
         this.view = view;
         this.init();
     }
@@ -19,20 +19,18 @@ class PokemonController {
 
     setupEventListeners() {
         const typeSelector = document.getElementById("type-selector");
-        typeSelector.addEventListener("change", (event) => {
+        typeSelector.addEventListener("change", async (event) => {
             const selectedType = event.target.value;
-            this.filterPokemonsByType(selectedType);
+            await this.filterPokemonsByType(selectedType);
         });
     }
 
-    filterPokemonsByType(type) {
-        const pokemons = this.model.getPokemons();
+    async filterPokemonsByType(type) {
         if (type === "all") {
-            this.view.renderPokemons(pokemons);
+            this.updateView();
         } else {
-            const filteredPokemons = pokemons.filter(pokemon => {
-                return pokemon.typeName1 === type || pokemon.typeName2 === type;
-            });
+            await this.statModel.fetchPokemonsByType(type);
+            const filteredPokemons = this.statModel.getPokemons();
             this.view.renderPokemons(filteredPokemons);
         }
     }
