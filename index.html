@@ -4,15 +4,33 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Pokémon stats</title>
-		<link
-			rel="shortcut icon"
-			href="img/Pokemon-Symbol-logo.png"
-			type="image/x-icon" />
+		<link rel="icon" href="img/Pokemon-Symbol-logo.png" type="image/x-icon" />
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
 		<header>
 			<h1>Pokémon Stats</h1>
+			<select id="type-selector">
+				<option value="all">Tous les types</option>
+				<option value="Normal Type">Normal</option>
+				<option value="Fighting Type">Combat</option>
+				<option value="Flying Type">Vol</option>
+				<option value="Poison Type">Poison</option>
+				<option value="Ground Type">Sol</option>
+				<option value="Rock Type">Roche</option>
+				<option value="Bug Type">Insecte</option>
+				<option value="Ghost Type">Spectre</option>
+				<option value="Steel Type">Acier</option>
+				<option value="Fire Type">Feu</option>
+				<option value="Water Type">Eau</option>
+				<option value="Grass Type">Plante</option>
+				<option value="Electric Type">Électrik</option>
+				<option value="Psychic Type">Psy</option>
+				<option value="Ice Type">Glace</option>
+				<option value="Dragon Type">Dragon</option>
+				<option value="Dark Type">Ténèbres</option>
+				<!-- <option value="Fairy Type">Fée</option> -->
+			</select>
 		</header>
 		<div class="cards-container" id="cards-container"></div>
 
@@ -22,8 +40,9 @@
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
 				const model = new PokemonModel();
+				const statModel = new PokemonStatModel();
 				const view = new PokemonView();
-				const controller = new PokemonController(model, view);
+				const controller = new PokemonController(model, statModel, view);
 			});
 		</script>
 	</body>
