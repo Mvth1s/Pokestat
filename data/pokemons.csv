@@ -1,839 +1,496 @@
-Nom                  ,Type 1   ,Type 2   ,HP  ,Attaque ,Défense ,Vitesse ,Génération
-Bulbizarre           ,Plante   ,Poison   , 45 ,     49 ,     49 ,     45 ,         1
-Herbizarre           ,Plante   ,Poison   , 60 ,     62 ,     63 ,     60 ,         1
-Florizarre           ,Plante   ,Poison   , 80 ,     82 ,     83 ,     80 ,         1
-Méga-Florizarre      ,Plante   ,Poison   , 80 ,    100 ,    123 ,     80 ,         1
-Salamèche            ,Feu      ,         , 39 ,     52 ,     43 ,     65 ,         1
-Reptincel            ,Feu      ,         , 58 ,     64 ,     58 ,     80 ,         1
-Dracaufeu            ,Feu      ,Vol      , 78 ,     84 ,     78 ,    100 ,         1
-Méga-Dracaufeu X     ,Feu      ,Dragon   , 78 ,    130 ,    111 ,    100 ,         1
-Méga-Dracaufeu Y     ,Feu      ,Vol      , 78 ,    104 ,     78 ,    100 ,         1
-Carapuce             ,Eau      ,         , 44 ,     48 ,     65 ,     43 ,         1
-Carabaffe            ,Eau      ,         , 59 ,     63 ,     80 ,     58 ,         1
-Tortank              ,Eau      ,         , 79 ,     83 ,    100 ,     78 ,         1
-Méga-Tortank         ,Eau      ,         , 79 ,    103 ,    120 ,     78 ,         1
-Chenipan             ,Insecte  ,         , 45 ,     30 ,     35 ,     45 ,         1
-Chrysacier           ,Insecte  ,         , 50 ,     20 ,     55 ,     30 ,         1
-Papilusion           ,Insecte  ,Vol      , 60 ,     45 ,     50 ,     70 ,         1
-Aspicot              ,Insecte  ,Poison   , 40 ,     35 ,     30 ,     50 ,         1
-Coconfort            ,Insecte  ,Poison   , 45 ,     25 ,     50 ,     35 ,         1
-Dardargnan           ,Insecte  ,Poison   , 65 ,     90 ,     40 ,     75 ,         1
-Méga-Dardargnan      ,Insecte  ,Poison   , 65 ,    150 ,     40 ,    145 ,         1
-Roucool              ,Normal   ,Vol      , 40 ,     45 ,     40 ,     56 ,         1
-Roucoups             ,Normal   ,Vol      , 63 ,     60 ,     55 ,     71 ,         1
-Roucarnage           ,Normal   ,Vol      , 83 ,     80 ,     75 ,    101 ,         1
-Méga-Roucarnage      ,Normal   ,Vol      , 83 ,     80 ,     80 ,    121 ,         1
-Rattata              ,Normal   ,         , 30 ,     56 ,     35 ,     72 ,         1
-Rattatac             ,Normal   ,         , 55 ,     81 ,     60 ,     97 ,         1
-Piafabec             ,Normal   ,Vol      , 40 ,     60 ,     30 ,     70 ,         1
-Rapasdepic           ,Normal   ,Vol      , 65 ,     90 ,     65 ,    100 ,         1
-Abo                  ,Poison   ,         , 35 ,     60 ,     44 ,     55 ,         1
-Arbok                ,Poison   ,         , 60 ,     85 ,     69 ,     80 ,         1
-Pikachu              ,Electrik ,         , 35 ,     55 ,     40 ,     90 ,         1
-Raichu               ,Electrik ,         , 60 ,     90 ,     55 ,    110 ,         1
-Sabelette            ,Sol      ,         , 50 ,     75 ,     85 ,     40 ,         1
-Sablaireau           ,Sol      ,         , 75 ,    100 ,    110 ,     65 ,         1
-Nidoran♀             ,Poison   ,         , 55 ,     47 ,     52 ,     41 ,         1
-Nidorina             ,Poison   ,         , 70 ,     62 ,     67 ,     56 ,         1
-Nidoqueen            ,Poison   ,Sol      , 90 ,     92 ,     87 ,     76 ,         1
-Nidoran♂             ,Poison   ,         , 46 ,     57 ,     40 ,     50 ,         1
-Nidorino             ,Poison   ,         , 61 ,     72 ,     57 ,     65 ,         1
-Nidoking             ,Poison   ,Sol      , 81 ,    102 ,     77 ,     85 ,         1
-Mélofée              ,Fée      ,         , 70 ,     45 ,     48 ,     35 ,         1
-Mélodelfe            ,Fée      ,         , 95 ,     70 ,     73 ,     60 ,         1
-Goupix               ,Feu      ,         , 38 ,     41 ,     40 ,     65 ,         1
-Feunard              ,Feu      ,         , 73 ,     76 ,     75 ,    100 ,         1
-Rondoudou            ,Normal   ,Fée      ,115 ,     45 ,     20 ,     20 ,         1
-Grodoudou            ,Normal   ,Fée      ,140 ,     70 ,     45 ,     45 ,         1
-Nosferapti           ,Poison   ,Vol      , 40 ,     45 ,     35 ,     55 ,         1
-Nosferalto           ,Poison   ,Vol      , 75 ,     80 ,     70 ,     90 ,         1
-Mystherbe            ,Plante   ,Poison   , 45 ,     50 ,     55 ,     30 ,         1
-Ortide               ,Plante   ,Poison   , 60 ,     65 ,     70 ,     40 ,         1
-Rafflesia            ,Plante   ,Poison   , 75 ,     80 ,     85 ,     50 ,         1
-Paras                ,Insecte  ,Plante   , 35 ,     70 ,     55 ,     25 ,         1
-Parasect             ,Insecte  ,Plante   , 60 ,     95 ,     80 ,     30 ,         1
-Mimitoss             ,Insecte  ,Poison   , 60 ,     55 ,     50 ,     45 ,         1
-Aéromite             ,Insecte  ,Poison   , 70 ,     65 ,     60 ,     90 ,         1
-Taupiqueur           ,Sol      ,         , 10 ,     55 ,     25 ,     95 ,         1
-Triopikeur           ,Sol      ,         , 35 ,     80 ,     50 ,    120 ,         1
-Miaouss              ,Normal   ,         , 40 ,     45 ,     35 ,     90 ,         1
-Persian              ,Normal   ,         , 65 ,     70 ,     60 ,    115 ,         1
-Psykokwak            ,Eau      ,         , 50 ,     52 ,     48 ,     55 ,         1
-Akwakwak             ,Eau      ,         , 80 ,     82 ,     78 ,     85 ,         1
-Férosinge            ,Combat   ,         , 40 ,     80 ,     35 ,     70 ,         1
-Colossinge           ,Combat   ,         , 65 ,    105 ,     60 ,     95 ,         1
-Caninos              ,Feu      ,         , 55 ,     70 ,     45 ,     60 ,         1
-Arcanin              ,Feu      ,         , 90 ,    110 ,     80 ,     95 ,         1
-Ptitard              ,Eau      ,         , 40 ,     50 ,     40 ,     90 ,         1
-Têtarte              ,Eau      ,         , 65 ,     65 ,     65 ,     90 ,         1
-Tartard              ,Eau      ,Combat   , 90 ,     95 ,     95 ,     70 ,         1
-Abra                 ,Psy      ,         , 25 ,     20 ,     15 ,     90 ,         1
-Kadabra              ,Psy      ,         , 40 ,     35 ,     30 ,    105 ,         1
-Alakazam             ,Psy      ,         , 55 ,     50 ,     45 ,    120 ,         1
-Méga-Alakazam        ,Psy      ,         , 55 ,     50 ,     65 ,    150 ,         1
-Machoc               ,Combat   ,         , 70 ,     80 ,     50 ,     35 ,         1
-Machopeur            ,Combat   ,         , 80 ,    100 ,     70 ,     45 ,         1
-Mackogneur           ,Combat   ,         , 90 ,    130 ,     80 ,     55 ,         1
-Chétiflor            ,Plante   ,Poison   , 50 ,     75 ,     35 ,     40 ,         1
-Boustiflor           ,Plante   ,Poison   , 65 ,     90 ,     50 ,     55 ,         1
-Empiflor             ,Plante   ,Poison   , 80 ,    105 ,     65 ,     70 ,         1
-Tentacool            ,Eau      ,Poison   , 40 ,     40 ,     35 ,     70 ,         1
-Tentacruel           ,Eau      ,Poison   , 80 ,     70 ,     65 ,    100 ,         1
-Racaillou            ,Roche    ,Sol      , 40 ,     80 ,    100 ,     20 ,         1
-Gravalanch           ,Roche    ,Sol      , 55 ,     95 ,    115 ,     35 ,         1
-Grolem               ,Roche    ,Sol      , 80 ,    120 ,    130 ,     45 ,         1
-Ponyta               ,Feu      ,         , 50 ,     85 ,     55 ,     90 ,         1
-Galopa               ,Feu      ,         , 65 ,    100 ,     70 ,    105 ,         1
-Ramoloss             ,Eau      ,Psy      , 90 ,     65 ,     65 ,     15 ,         1
-Flagadoss            ,Eau      ,Psy      , 95 ,     75 ,    110 ,     30 ,         1
-Méga-Flagadoss       ,Eau      ,Psy      , 95 ,     75 ,    180 ,     30 ,         1
-Magnéti              ,Electrik ,Acier    , 25 ,     35 ,     70 ,     45 ,         1
-Magnéton             ,Electrik ,Acier    , 50 ,     60 ,     95 ,     70 ,         1
-Canarticho           ,Normal   ,Vol      , 52 ,     65 ,     55 ,     60 ,         1
-Doduo                ,Normal   ,Vol      , 35 ,     85 ,     45 ,     75 ,         1
-Dodrio               ,Normal   ,Vol      , 60 ,    110 ,     70 ,    100 ,         1
-Otaria               ,Eau      ,         , 65 ,     45 ,     55 ,     45 ,         1
-Lamantine            ,Eau      ,Glace    , 90 ,     70 ,     80 ,     70 ,         1
-Tadmorv              ,Poison   ,         , 80 ,     80 ,     50 ,     25 ,         1
-Grotadmorv           ,Poison   ,         ,105 ,    105 ,     75 ,     50 ,         1
-Kokiyas              ,Eau      ,         , 30 ,     65 ,    100 ,     40 ,         1
-Crustabri            ,Eau      ,Glace    , 50 ,     95 ,    180 ,     70 ,         1
-Fantominus           ,Spectre  ,Poison   , 30 ,     35 ,     30 ,     80 ,         1
-Spectrum             ,Spectre  ,Poison   , 45 ,     50 ,     45 ,     95 ,         1
-Ectoplasma           ,Spectre  ,Poison   , 60 ,     65 ,     60 ,    110 ,         1
-Méga-Ectoplasma      ,Spectre  ,Poison   , 60 ,     65 ,     80 ,    130 ,         1
-Onix                 ,Roche    ,Sol      , 35 ,     45 ,    160 ,     70 ,         1
-Soporifik            ,Psy      ,         , 60 ,     48 ,     45 ,     42 ,         1
-Hypnomade            ,Psy      ,         , 85 ,     73 ,     70 ,     67 ,         1
-Krabby               ,Eau      ,         , 30 ,    105 ,     90 ,     50 ,         1
-Krabboss             ,Eau      ,         , 55 ,    130 ,    115 ,     75 ,         1
-Voltorbe             ,Electrik ,         , 40 ,     30 ,     50 ,    100 ,         1
-Électrode            ,Electrik ,         , 60 ,     50 ,     70 ,    140 ,         1
-Noeunoeuf            ,Plante   ,Psy      , 60 ,     40 ,     80 ,     40 ,         1
-Noadkoko             ,Plante   ,Psy      , 95 ,     95 ,     85 ,     55 ,         1
-Osselait             ,Sol      ,         , 50 ,     50 ,     95 ,     35 ,         1
-Ossatueur            ,Sol      ,         , 60 ,     80 ,    110 ,     45 ,         1
-Kicklee              ,Combat   ,         , 50 ,    120 ,     53 ,     87 ,         1
-Tygnon               ,Combat   ,         , 50 ,    105 ,     79 ,     76 ,         1
-Excelangue           ,Normal   ,         , 90 ,     55 ,     75 ,     30 ,         1
-Smogo                ,Poison   ,         , 40 ,     65 ,     95 ,     35 ,         1
-Smogogo              ,Poison   ,         , 65 ,     90 ,    120 ,     60 ,         1
-Rhinocorne           ,Sol      ,Roche    , 80 ,     85 ,     95 ,     25 ,         1
-Rhinoféros           ,Sol      ,Roche    ,105 ,    130 ,    120 ,     40 ,         1
-Leveinard            ,Normal   ,         ,250 ,      5 ,      5 ,     50 ,         1
-Saquedeneu           ,Plante   ,         , 65 ,     55 ,    115 ,     60 ,         1
-Kangourex            ,Normal   ,         ,105 ,     95 ,     80 ,     90 ,         1
-Méga-Kangourex       ,Normal   ,         ,105 ,    125 ,    100 ,    100 ,         1
-Hypotrempe           ,Eau      ,         , 30 ,     40 ,     70 ,     60 ,         1
-Hypocéan             ,Eau      ,         , 55 ,     65 ,     95 ,     85 ,         1
-Poissirène           ,Eau      ,         , 45 ,     67 ,     60 ,     63 ,         1
-Poissoroy            ,Eau      ,         , 80 ,     92 ,     65 ,     68 ,         1
-Stari                ,Eau      ,         , 30 ,     45 ,     55 ,     85 ,         1
-Staross              ,Eau      ,Psy      , 60 ,     75 ,     85 ,    115 ,         1
-M. Mime              ,Psy      ,Fée      , 40 ,     45 ,     65 ,     90 ,         1
-Insécateur           ,Insecte  ,Vol      , 70 ,    110 ,     80 ,    105 ,         1
-Lippoutou            ,Glace    ,Psy      , 65 ,     50 ,     35 ,     95 ,         1
-Élektek              ,Electrik ,         , 65 ,     83 ,     57 ,    105 ,         1
-Magmar               ,Feu      ,         , 65 ,     95 ,     57 ,     93 ,         1
-Scarabrute           ,Insecte  ,         , 65 ,    125 ,    100 ,     85 ,         1
-Méga-Scarabrute      ,Insecte  ,Vol      , 65 ,    155 ,    120 ,    105 ,         1
-Tauros               ,Normal   ,         , 75 ,    100 ,     95 ,    110 ,         1
-Magicarpe            ,Eau      ,         , 20 ,     10 ,     55 ,     80 ,         1
-Léviator             ,Eau      ,Vol      , 95 ,    125 ,     79 ,     81 ,         1
-Méga-Léviator        ,Eau      ,Ténèbres , 95 ,    155 ,    109 ,     81 ,         1
-Lokhlass             ,Eau      ,Glace    ,130 ,     85 ,     80 ,     60 ,         1
-Métamorph            ,Normal   ,         , 48 ,     48 ,     48 ,     48 ,         1
-Évoli                ,Normal   ,         , 55 ,     55 ,     50 ,     55 ,         1
-Aquali               ,Eau      ,         ,130 ,     65 ,     60 ,     65 ,         1
-Voltali              ,Electrik ,         , 65 ,     65 ,     60 ,    130 ,         1
-Pyroli               ,Feu      ,         , 65 ,    130 ,     60 ,     65 ,         1
-Porygon              ,Normal   ,         , 65 ,     60 ,     70 ,     40 ,         1
-Amonita              ,Roche    ,Eau      , 35 ,     40 ,    100 ,     35 ,         1
-Amonistar            ,Roche    ,Eau      , 70 ,     60 ,    125 ,     55 ,         1
-Kabuto               ,Roche    ,Eau      , 30 ,     80 ,     90 ,     55 ,         1
-Kabutops             ,Roche    ,Eau      , 60 ,    115 ,    105 ,     80 ,         1
-Ptéra                ,Roche    ,Vol      , 80 ,    105 ,     65 ,    130 ,         1
-Méga-Ptéra           ,Roche    ,Vol      , 80 ,    135 ,     85 ,    150 ,         1
-Ronflex              ,Normal   ,         ,160 ,    110 ,     65 ,     30 ,         1
-Artikodin            ,Glace    ,Vol      , 90 ,     85 ,    100 ,     85 ,         1
-Électhor             ,Electrik ,Vol      , 90 ,     90 ,     85 ,    100 ,         1
-Sulfura              ,Feu      ,Vol      , 90 ,    100 ,     90 ,     90 ,         1
-Minidraco            ,Dragon   ,         , 41 ,     64 ,     45 ,     50 ,         1
-Draco                ,Dragon   ,         , 61 ,     84 ,     65 ,     70 ,         1
-Dracolosse           ,Dragon   ,Vol      , 91 ,    134 ,     95 ,     80 ,         1
-Mewtwo               ,Psy      ,         ,106 ,    110 ,     90 ,    130 ,         1
-Méga-Mewtwo X        ,Psy      ,Combat   ,106 ,    190 ,    100 ,    130 ,         1
-Méga-Mewtwo Y        ,Psy      ,         ,106 ,    150 ,     70 ,    140 ,         1
-Mew                  ,Psy      ,         ,100 ,    100 ,    100 ,    100 ,         1
-Germignon            ,Plante   ,         , 45 ,     49 ,     65 ,     45 ,         2
-Macronium            ,Plante   ,         , 60 ,     62 ,     80 ,     60 ,         2
-Méganium             ,Plante   ,         , 80 ,     82 ,    100 ,     80 ,         2
-HérGlacendre         ,Feu      ,         , 39 ,     52 ,     43 ,     65 ,         2
-Feurisson            ,Feu      ,         , 58 ,     64 ,     58 ,     80 ,         2
-Typhlosion           ,Feu      ,         , 78 ,     84 ,     78 ,    100 ,         2
-Kaiminus             ,Eau      ,         , 50 ,     65 ,     64 ,     43 ,         2
-Crocrodil            ,Eau      ,         , 65 ,     80 ,     80 ,     58 ,         2
-Aligatueur           ,Eau      ,         , 85 ,    105 ,    100 ,     78 ,         2
-Fouinette            ,Normal   ,         , 35 ,     46 ,     34 ,     20 ,         2
-Fouinar              ,Normal   ,         , 85 ,     76 ,     64 ,     90 ,         2
-Hoothoot             ,Normal   ,Vol      , 60 ,     30 ,     30 ,     50 ,         2
-Noarfang             ,Normal   ,Vol      ,100 ,     50 ,     50 ,     70 ,         2
-Coxy                 ,Insecte  ,Vol      , 40 ,     20 ,     30 ,     55 ,         2
-Coxyclaque           ,Insecte  ,Vol      , 55 ,     35 ,     50 ,     85 ,         2
-Mimigal              ,Insecte  ,Poison   , 40 ,     60 ,     40 ,     30 ,         2
-Migalos              ,Insecte  ,Poison   , 70 ,     90 ,     70 ,     40 ,         2
-Nostenfer            ,Poison   ,Vol      , 85 ,     90 ,     80 ,    130 ,         2
-Loupio               ,Eau      ,Electrik , 75 ,     38 ,     38 ,     67 ,         2
-Lanturn              ,Eau      ,Electrik ,125 ,     58 ,     58 ,     67 ,         2
-Pichu                ,Electrik ,         , 20 ,     40 ,     15 ,     60 ,         2
-Mélo                 ,Fée      ,         , 50 ,     25 ,     28 ,     15 ,         2
-Toudoudou            ,Normal   ,Fée      , 90 ,     30 ,     15 ,     15 ,         2
-Togepi               ,Fée      ,         , 35 ,     20 ,     65 ,     20 ,         2
-Togetic              ,Fée      ,Vol      , 55 ,     40 ,     85 ,     40 ,         2
-Natu                 ,Psy      ,Vol      , 40 ,     50 ,     45 ,     70 ,         2
-Xatu                 ,Psy      ,Vol      , 65 ,     75 ,     70 ,     95 ,         2
-Wattouat             ,Electrik ,         , 55 ,     40 ,     40 ,     35 ,         2
-Lainergie            ,Electrik ,         , 70 ,     55 ,     55 ,     45 ,         2
-Pharamp              ,Electrik ,         , 90 ,     75 ,     85 ,     55 ,         2
-Méga-Pharamp         ,Electrik ,Dragon   , 90 ,     95 ,    105 ,     45 ,         2
-Joliflor             ,Plante   ,         , 75 ,     80 ,     95 ,     50 ,         2
-Marill               ,Eau      ,Fée      , 70 ,     20 ,     50 ,     40 ,         2
-Azumarill            ,Eau      ,Fée      ,100 ,     50 ,     80 ,     50 ,         2
-Simularbre           ,Roche    ,         , 70 ,    100 ,    115 ,     30 ,         2
-Tarpaud              ,Eau      ,         , 90 ,     75 ,     75 ,     70 ,         2
-Granivol             ,Plante   ,Vol      , 35 ,     35 ,     40 ,     50 ,         2
-Floravol             ,Plante   ,Vol      , 55 ,     45 ,     50 ,     80 ,         2
-Cotovol              ,Plante   ,Vol      , 75 ,     55 ,     70 ,    110 ,         2
-Capumain             ,Normal   ,         , 55 ,     70 ,     55 ,     85 ,         2
-Tournegrin           ,Plante   ,         , 30 ,     30 ,     30 ,     30 ,         2
-Héliatronc           ,Plante   ,         , 75 ,     75 ,     55 ,     30 ,         2
-Yanma                ,Insecte  ,Vol      , 65 ,     65 ,     45 ,     95 ,         2
-Axoloto              ,Eau      ,Sol      , 55 ,     45 ,     45 ,     15 ,         2
-Maraiste             ,Eau      ,Sol      , 95 ,     85 ,     85 ,     35 ,         2
-Mentali              ,Psy      ,         , 65 ,     65 ,     60 ,    110 ,         2
-Noctali              ,Ténèbres ,         , 95 ,     65 ,    110 ,     65 ,         2
-Cornèbre             ,Ténèbres ,Vol      , 60 ,     85 ,     42 ,     91 ,         2
-Roigada              ,Eau      ,Psy      , 95 ,     75 ,     80 ,     30 ,         2
-Feuforêve            ,Spectre  ,         , 60 ,     60 ,     60 ,     85 ,         2
-Zarbi                ,Psy      ,         , 48 ,     72 ,     48 ,     48 ,         2
-Qulbutoké            ,Psy      ,         ,190 ,     33 ,     58 ,     33 ,         2
-Girafarig            ,Normal   ,Psy      , 70 ,     80 ,     65 ,     85 ,         2
-Pomdepik             ,Insecte  ,         , 50 ,     65 ,     90 ,     15 ,         2
-Foretress            ,Insecte  ,Acier    , 75 ,     90 ,    140 ,     40 ,         2
-Insolourdo           ,Normal   ,         ,100 ,     70 ,     70 ,     45 ,         2
-Scorplane            ,Sol      ,Vol      , 65 ,     75 ,    105 ,     85 ,         2
-Steelix              ,Acier    ,Sol      , 75 ,     85 ,    200 ,     30 ,         2
-Méga-Acierix         ,Acier    ,Sol      , 75 ,    125 ,    230 ,     30 ,         2
-Snubbull             ,Fée      ,         , 60 ,     80 ,     50 ,     30 ,         2
-Granbull             ,Fée      ,         , 90 ,    120 ,     75 ,     45 ,         2
-Qwilfish             ,Eau      ,Poison   , 65 ,     95 ,     75 ,     85 ,         2
-Cizayox              ,Insecte  ,Acier    , 70 ,    130 ,    100 ,     65 ,         2
-Méga-Cizayox         ,Insecte  ,Acier    , 70 ,    150 ,    140 ,     75 ,         2
-Caratroc             ,Insecte  ,Roche    , 20 ,     10 ,    230 ,      5 ,         2
-Scarhino             ,Insecte  ,Combat   , 80 ,    125 ,     75 ,     85 ,         2
-Méga-Scarhino        ,Insecte  ,Combat   , 80 ,    185 ,    115 ,     75 ,         2
-Farfuret             ,Ténèbres ,Glace    , 55 ,     95 ,     55 ,    115 ,         2
-Teddiursa            ,Normal   ,         , 60 ,     80 ,     50 ,     40 ,         2
-Ursaring             ,Normal   ,         , 90 ,    130 ,     75 ,     55 ,         2
-Limagma              ,Feu      ,         , 40 ,     40 ,     40 ,     20 ,         2
-Volcaropod           ,Feu      ,Roche    , 50 ,     50 ,    120 ,     30 ,         2
-Marcacrin            ,Glace    ,Sol      , 50 ,     50 ,     40 ,     50 ,         2
-Cochignon            ,Glace    ,Sol      ,100 ,    100 ,     80 ,     50 ,         2
-Corayon              ,Eau      ,Roche    , 55 ,     55 ,     85 ,     35 ,         2
-Rémoraid             ,Eau      ,         , 35 ,     65 ,     35 ,     65 ,         2
-Octillery            ,Eau      ,         , 75 ,    105 ,     75 ,     45 ,         2
-Cadoizo              ,Glace    ,Vol      , 45 ,     55 ,     45 ,     75 ,         2
-Démanta              ,Eau      ,Vol      , 65 ,     40 ,     70 ,     70 ,         2
-Airmure              ,Acier    ,Vol      , 65 ,     80 ,    140 ,     70 ,         2
-Malosse              ,Ténèbres ,Feu      , 45 ,     60 ,     30 ,     65 ,         2
-Démolosse            ,Ténèbres ,Feu      , 75 ,     90 ,     50 ,     95 ,         2
-Méga-Démolosse       ,Ténèbres ,Feu      , 75 ,     90 ,     90 ,    115 ,         2
-Hyporoi              ,Eau      ,Dragon   , 75 ,     95 ,     95 ,     85 ,         2
-Phanpy               ,Sol      ,         , 90 ,     60 ,     60 ,     40 ,         2
-Donphan              ,Sol      ,         , 90 ,    120 ,    120 ,     50 ,         2
-Porygon2             ,Normal   ,         , 85 ,     80 ,     90 ,     60 ,         2
-Cerfrousse           ,Normal   ,         , 73 ,     95 ,     62 ,     85 ,         2
-Queulorior           ,Normal   ,         , 55 ,     20 ,     35 ,     75 ,         2
-DeInsecteant         ,Combat   ,         , 35 ,     35 ,     35 ,     35 ,         2
-Kapoera              ,Combat   ,         , 50 ,     95 ,     95 ,     70 ,         2
-Lippouti             ,Glace    ,Psy      , 45 ,     30 ,     15 ,     65 ,         2
-Élekid               ,Electrik ,         , 45 ,     63 ,     37 ,     95 ,         2
-Magby                ,Feu      ,         , 45 ,     75 ,     37 ,     83 ,         2
-Écrémeuh             ,Normal   ,         , 95 ,     80 ,    105 ,    100 ,         2
-Leuphorie            ,Normal   ,         ,255 ,     10 ,     10 ,     55 ,         2
-Raikou               ,Electrik ,         , 90 ,     85 ,     75 ,    115 ,         2
-Entei                ,Feu      ,         ,115 ,    115 ,     85 ,    100 ,         2
-Suicune              ,Eau      ,         ,100 ,     75 ,    115 ,     85 ,         2
-Embrylex             ,Roche    ,Sol      , 50 ,     64 ,     50 ,     41 ,         2
-Ymphect              ,Roche    ,Sol      , 70 ,     84 ,     70 ,     51 ,         2
-Tyranocif            ,Roche    ,Ténèbres ,100 ,    134 ,    110 ,     61 ,         2
-Méga-Tyranocif       ,Roche    ,Ténèbres ,100 ,    164 ,    150 ,     71 ,         2
-Lugia                ,Psy      ,Vol      ,106 ,     90 ,    130 ,    110 ,         2
-Ho-Oh                ,Feu      ,Vol      ,106 ,    130 ,     90 ,     90 ,         2
-Celebi               ,Psy      ,Plante   ,100 ,    100 ,    100 ,    100 ,         2
-Arcko                ,Plante   ,         , 40 ,     45 ,     35 ,     70 ,         3
-Massko               ,Plante   ,         , 50 ,     65 ,     45 ,     95 ,         3
-Jungko               ,Plante   ,         , 70 ,     85 ,     65 ,    120 ,         3
-Méga-Jungko          ,Plante   ,Dragon   , 70 ,    110 ,     75 ,    145 ,         3
-Poussifeu            ,Feu      ,         , 45 ,     60 ,     40 ,     45 ,         3
-Galifeu              ,Feu      ,Combat   , 60 ,     85 ,     60 ,     55 ,         3
-Braségali            ,Feu      ,Combat   , 80 ,    120 ,     70 ,     80 ,         3
-Méga-Braségali       ,Feu      ,Combat   , 80 ,    160 ,     80 ,    100 ,         3
-Gobou                ,Eau      ,         , 50 ,     70 ,     50 ,     40 ,         3
-Flobio               ,Eau      ,Sol      , 70 ,     85 ,     70 ,     50 ,         3
-Laggron              ,Eau      ,Sol      ,100 ,    110 ,     90 ,     60 ,         3
-Méga-Laggron         ,Eau      ,Sol      ,100 ,    150 ,    110 ,     70 ,         3
-Medhyèna             ,Ténèbres ,         , 35 ,     55 ,     35 ,     35 ,         3
-Grahyèna             ,Ténèbres ,         , 70 ,     90 ,     70 ,     70 ,         3
-Zigzaton             ,Normal   ,         , 38 ,     30 ,     41 ,     60 ,         3
-Linéon               ,Normal   ,         , 78 ,     70 ,     61 ,    100 ,         3
-Chenipotte           ,Insecte  ,         , 45 ,     45 ,     35 ,     20 ,         3
-Armulys              ,Insecte  ,         , 50 ,     35 ,     55 ,     15 ,         3
-Charmillon           ,Insecte  ,Vol      , 60 ,     70 ,     50 ,     65 ,         3
-Blindalys            ,Insecte  ,         , 50 ,     35 ,     55 ,     15 ,         3
-Papinox              ,Insecte  ,Poison   , 60 ,     50 ,     70 ,     65 ,         3
-Nénupiot             ,Eau      ,Plante   , 40 ,     30 ,     30 ,     30 ,         3
-Lombre               ,Eau      ,Plante   , 60 ,     50 ,     50 ,     50 ,         3
-Ludicolo             ,Eau      ,Plante   , 80 ,     70 ,     70 ,     70 ,         3
-Grainipiot           ,Plante   ,         , 40 ,     40 ,     50 ,     30 ,         3
-Pifeuil              ,Plante   ,Ténèbres , 70 ,     70 ,     40 ,     60 ,         3
-TengalGlace          ,Plante   ,Ténèbres , 90 ,    100 ,     60 ,     80 ,         3
-Nirondelle           ,Normal   ,Vol      , 40 ,     55 ,     30 ,     85 ,         3
-Hélédelle            ,Normal   ,Vol      , 60 ,     85 ,     60 ,    125 ,         3
-Goélise              ,Eau      ,Vol      , 40 ,     30 ,     30 ,     85 ,         3
-Bekipan              ,Eau      ,Vol      , 60 ,     50 ,    100 ,     65 ,         3
-Tarsal               ,Psy      ,Fée      , 28 ,     25 ,     25 ,     40 ,         3
-Kirlia               ,Psy      ,Fée      , 38 ,     35 ,     35 ,     50 ,         3
-Gardevoir            ,Psy      ,Fée      , 68 ,     65 ,     65 ,     80 ,         3
-Méga-Gardevoir       ,Psy      ,Fée      , 68 ,     85 ,     65 ,    100 ,         3
-Arakdo               ,Insecte  ,Eau      , 40 ,     30 ,     32 ,     65 ,         3
-Maskadra             ,Insecte  ,Vol      , 70 ,     60 ,     62 ,     60 ,         3
-Balignon             ,Plante   ,         , 60 ,     40 ,     60 ,     35 ,         3
-Chapignon            ,Plante   ,Combat   , 60 ,    130 ,     80 ,     70 ,         3
-Parecool             ,Normal   ,         , 60 ,     60 ,     60 ,     30 ,         3
-Vigoroth             ,Normal   ,         , 80 ,     80 ,     80 ,     90 ,         3
-Monaflèmit           ,Normal   ,         ,150 ,    160 ,    100 ,    100 ,         3
-Ningale              ,Insecte  ,Sol      , 31 ,     45 ,     90 ,     40 ,         3
-Ninjask              ,Insecte  ,Vol      , 61 ,     90 ,     45 ,    160 ,         3
-Munja                ,Insecte  ,Spectre  ,  1 ,     90 ,     45 ,     40 ,         3
-Chuchmur             ,Normal   ,         , 64 ,     51 ,     23 ,     28 ,         3
-Ramboum              ,Normal   ,         , 84 ,     71 ,     43 ,     48 ,         3
-Brouhabam            ,Normal   ,         ,104 ,     91 ,     63 ,     68 ,         3
-Makuhita             ,Combat   ,         , 72 ,     60 ,     30 ,     25 ,         3
-Hariyama             ,Combat   ,         ,144 ,    120 ,     60 ,     50 ,         3
-Azurill              ,Normal   ,Fée      , 50 ,     20 ,     40 ,     20 ,         3
-Tarinor              ,Roche    ,         , 30 ,     45 ,    135 ,     30 ,         3
-Skitty               ,Normal   ,         , 50 ,     45 ,     45 ,     50 ,         3
-Delcatty             ,Normal   ,         , 70 ,     65 ,     65 ,     70 ,         3
-Ténéfix              ,Ténèbres ,Spectre  , 50 ,     75 ,     75 ,     50 ,         3
-Méga-Ténéfix         ,Ténèbres ,Spectre  , 50 ,     85 ,    125 ,     20 ,         3
-Mysdibule            ,Acier    ,Fée      , 50 ,     85 ,     85 ,     50 ,         3
-Méga-Mysdibule       ,Acier    ,Fée      , 50 ,    105 ,    125 ,     50 ,         3
-Galekid              ,Acier    ,Roche    , 50 ,     70 ,    100 ,     30 ,         3
-Galegon              ,Acier    ,Roche    , 60 ,     90 ,    140 ,     40 ,         3
-Galeking             ,Acier    ,Roche    , 70 ,    110 ,    180 ,     50 ,         3
-Méga-Galeking        ,Acier    ,         , 70 ,    140 ,    230 ,     50 ,         3
-Méditikka            ,Combat   ,Psy      , 30 ,     40 ,     55 ,     60 ,         3
-Charmina             ,Combat   ,Psy      , 60 ,     60 ,     75 ,     80 ,         3
-Méga-Charmina        ,Combat   ,Psy      , 60 ,    100 ,     85 ,    100 ,         3
-Dynavolt             ,Electrik ,         , 40 ,     45 ,     40 ,     65 ,         3
-Élecsprint           ,Electrik ,         , 70 ,     75 ,     60 ,    105 ,         3
-Méga-Élecsprint      ,Electrik ,         , 70 ,     75 ,     80 ,    135 ,         3
-Posipi               ,Electrik ,         , 60 ,     50 ,     40 ,     95 ,         3
-Négapi               ,Electrik ,         , 60 ,     40 ,     50 ,     95 ,         3
-Muciole              ,Insecte  ,         , 65 ,     73 ,     55 ,     85 ,         3
-Lumivole             ,Insecte  ,         , 65 ,     47 ,     55 ,     85 ,         3
-Rosélia              ,Plante   ,Poison   , 50 ,     60 ,     45 ,     65 ,         3
-Gloupti              ,Poison   ,         , 70 ,     43 ,     53 ,     40 ,         3
-Avaltout             ,Poison   ,         ,100 ,     73 ,     83 ,     55 ,         3
-Carvanha             ,Eau      ,Ténèbres , 45 ,     90 ,     20 ,     65 ,         3
-Sharpedo             ,Eau      ,Ténèbres , 70 ,    120 ,     40 ,     95 ,         3
-Méga-Sharpedo        ,Eau      ,Ténèbres , 70 ,    140 ,     70 ,    105 ,         3
-Wailmer              ,Eau      ,         ,130 ,     70 ,     35 ,     60 ,         3
-Wailord              ,Eau      ,         ,170 ,     90 ,     45 ,     60 ,         3
-Chamallot            ,Feu      ,Sol      , 60 ,     60 ,     40 ,     35 ,         3
-Camérupt             ,Feu      ,Sol      , 70 ,    100 ,     70 ,     40 ,         3
-Méga-Camérupt        ,Feu      ,Sol      , 70 ,    120 ,    100 ,     20 ,         3
-Chartor              ,Feu      ,         , 70 ,     85 ,    140 ,     20 ,         3
-Spoink               ,Psy      ,         , 60 ,     25 ,     35 ,     60 ,         3
-Groret               ,Psy      ,         , 80 ,     45 ,     65 ,     80 ,         3
-Spinda               ,Normal   ,         , 60 ,     60 ,     60 ,     60 ,         3
-Kraknoix             ,Sol      ,         , 45 ,    100 ,     45 ,     10 ,         3
-Vibraninf            ,Sol      ,Dragon   , 50 ,     70 ,     50 ,     70 ,         3
-Libégon              ,Sol      ,Dragon   , 80 ,    100 ,     80 ,    100 ,         3
-Cacnea               ,Plante   ,         , 50 ,     85 ,     40 ,     35 ,         3
-Cacturne             ,Plante   ,Ténèbres , 70 ,    115 ,     60 ,     55 ,         3
-Tylton               ,Normal   ,Vol      , 45 ,     40 ,     60 ,     50 ,         3
-Altaria              ,Dragon   ,Vol      , 75 ,     70 ,     90 ,     80 ,         3
-Méga-Altaria         ,Dragon   ,Fée      , 75 ,    110 ,    110 ,     80 ,         3
-Mangriff             ,Normal   ,         , 73 ,    115 ,     60 ,     90 ,         3
-Séviper              ,Poison   ,         , 73 ,    100 ,     60 ,     65 ,         3
-Séléroc              ,Roche    ,Psy      , 70 ,     55 ,     65 ,     70 ,         3
-Solaroc              ,Roche    ,Psy      , 70 ,     95 ,     85 ,     70 ,         3
-Barloche             ,Eau      ,Sol      , 50 ,     48 ,     43 ,     60 ,         3
-Barbicha             ,Eau      ,Sol      ,110 ,     78 ,     73 ,     60 ,         3
-Écrapince            ,Eau      ,         , 43 ,     80 ,     65 ,     35 ,         3
-Colhomard            ,Eau      ,Ténèbres , 63 ,    120 ,     85 ,     55 ,         3
-Balbuto              ,Sol      ,Psy      , 40 ,     40 ,     55 ,     55 ,         3
-Kaorine              ,Sol      ,Psy      , 60 ,     70 ,    105 ,     75 ,         3
-Lilia                ,Roche    ,Plante   , 66 ,     41 ,     77 ,     23 ,         3
-Vacilys              ,Roche    ,Plante   , 86 ,     81 ,     97 ,     43 ,         3
-Anorith              ,Roche    ,Insecte  , 45 ,     95 ,     50 ,     75 ,         3
-Armaldo              ,Roche    ,Insecte  , 75 ,    125 ,    100 ,     45 ,         3
-Barpau               ,Eau      ,         , 20 ,     15 ,     20 ,     80 ,         3
-Milobellus           ,Eau      ,         , 95 ,     60 ,     79 ,     81 ,         3
-Morphéo              ,Normal   ,         , 70 ,     70 ,     70 ,     70 ,         3
-Kecleon              ,Normal   ,         , 60 ,     90 ,     70 ,     40 ,         3
-Polichombr           ,Spectre  ,         , 44 ,     75 ,     35 ,     45 ,         3
-Branette             ,Spectre  ,         , 64 ,    115 ,     65 ,     65 ,         3
-Méga-Branette        ,Spectre  ,         , 64 ,    165 ,     75 ,     75 ,         3
-Skelénox             ,Spectre  ,         , 20 ,     40 ,     90 ,     25 ,         3
-Téraclope            ,Spectre  ,         , 40 ,     70 ,    130 ,     25 ,         3
-Tropius              ,Plante   ,Vol      , 99 ,     68 ,     83 ,     51 ,         3
-Éoko                 ,Psy      ,         , 65 ,     50 ,     70 ,     65 ,         3
-Absol                ,Ténèbres ,         , 65 ,    130 ,     60 ,     75 ,         3
-Méga-Absol           ,Ténèbres ,         , 65 ,    150 ,     60 ,    115 ,         3
-Okéoké               ,Psy      ,         , 95 ,     23 ,     48 ,     23 ,         3
-Stalgamin            ,Glace    ,         , 50 ,     50 ,     50 ,     50 ,         3
-Oniglali             ,Glace    ,         , 80 ,     80 ,     80 ,     80 ,         3
-Méga-Oniglali        ,Glace    ,         , 80 ,    120 ,     80 ,    100 ,         3
-Obalie               ,Glace    ,Eau      , 70 ,     40 ,     50 ,     25 ,         3
-Phogleur             ,Glace    ,Eau      , 90 ,     60 ,     70 ,     45 ,         3
-Kaimorse             ,Glace    ,Eau      ,110 ,     80 ,     90 ,     65 ,         3
-Coquiperl            ,Eau      ,         , 35 ,     64 ,     85 ,     32 ,         3
-Serpang              ,Eau      ,         , 55 ,    104 ,    105 ,     52 ,         3
-Rosabyss             ,Eau      ,         , 55 ,     84 ,    105 ,     52 ,         3
-Relicanth            ,Eau      ,Roche    ,100 ,     90 ,    130 ,     55 ,         3
-Lovdisc              ,Eau      ,         , 43 ,     30 ,     55 ,     97 ,         3
-Draby                ,Dragon   ,         , 45 ,     75 ,     60 ,     50 ,         3
-Drackhaus            ,Dragon   ,         , 65 ,     95 ,    100 ,     50 ,         3
-Drattak              ,Dragon   ,Vol      , 95 ,    135 ,     80 ,    100 ,         3
-Méga-Drattak         ,Dragon   ,Vol      , 95 ,    145 ,    130 ,    120 ,         3
-Terhal               ,Acier    ,Psy      , 40 ,     55 ,     80 ,     30 ,         3
-Métang               ,Acier    ,Psy      , 60 ,     75 ,    100 ,     50 ,         3
-Métalosse            ,Acier    ,Psy      , 80 ,    135 ,    130 ,     70 ,         3
-Méga-Métalosse       ,Acier    ,Psy      , 80 ,    145 ,    150 ,    110 ,         3
-RegiRoche            ,Roche    ,         , 80 ,    100 ,    200 ,     50 ,         3
-RegGlace             ,Glace    ,         , 80 ,     50 ,    100 ,     50 ,         3
-RegiAcier            ,Acier    ,         , 80 ,     75 ,    150 ,     50 ,         3
-Latias               ,Dragon   ,Psy      , 80 ,     80 ,     90 ,    110 ,         3
-Méga-Latias          ,Dragon   ,Psy      , 80 ,    100 ,    120 ,    110 ,         3
-Latios               ,Dragon   ,Psy      , 80 ,     90 ,     80 ,    110 ,         3
-Méga-Latios          ,Dragon   ,Psy      , 80 ,    130 ,    100 ,    110 ,         3
-Kyogre               ,Eau      ,         ,100 ,    100 ,     90 ,     90 ,         3
-Primo-Kyogre         ,Eau      ,         ,100 ,    150 ,     90 ,     90 ,         3
-Groudon              ,Sol      ,         ,100 ,    150 ,    140 ,     90 ,         3
-Primo-Groudon        ,Sol      ,Feu      ,100 ,    180 ,    160 ,     90 ,         3
-Rayquaza             ,Dragon   ,Vol      ,105 ,    150 ,     90 ,     95 ,         3
-Méga-Rayquaza        ,Dragon   ,Vol      ,105 ,    180 ,    100 ,    115 ,         3
-Jirachi              ,Acier    ,Psy      ,100 ,    100 ,    100 ,    100 ,         3
-"Deoxys
-(Forme de Base)"     ,Psy      ,         , 50 ,    150 ,     50 ,    150 ,         3
-"Deoxys
-(Forme Attaque)"     ,Psy      ,         , 50 ,    180 ,     20 ,    150 ,         3
-"Deoxys
-(Forme Défense)"     ,Psy      ,         , 50 ,     70 ,    160 ,     90 ,         3
-"Deoxys
-(Forme Vitesse)"     ,Psy      ,         , 50 ,     95 ,     90 ,    180 ,         3
-Tortipouss           ,Plante   ,         , 55 ,     68 ,     64 ,     31 ,         4
-Boskara              ,Plante   ,         , 75 ,     89 ,     85 ,     36 ,         4
-Torterra             ,Plante   ,Sol      , 95 ,    109 ,    105 ,     56 ,         4
-Ouisticram           ,Feu      ,         , 44 ,     58 ,     44 ,     61 ,         4
-Chimpenfeu           ,Feu      ,Combat   , 64 ,     78 ,     52 ,     81 ,         4
-Simiabraz            ,Feu      ,Combat   , 76 ,    104 ,     71 ,    108 ,         4
-Tiplouf              ,Eau      ,         , 53 ,     51 ,     53 ,     40 ,         4
-Prinplouf            ,Eau      ,         , 64 ,     66 ,     68 ,     50 ,         4
-Pingoléon            ,Eau      ,Acier    , 84 ,     86 ,     88 ,     60 ,         4
-Étourmi              ,Normal   ,Vol      , 40 ,     55 ,     30 ,     60 ,         4
-Étourvol             ,Normal   ,Vol      , 55 ,     75 ,     50 ,     80 ,         4
-Étouraptor           ,Normal   ,Vol      , 85 ,    120 ,     70 ,    100 ,         4
-Keunotor             ,Normal   ,         , 59 ,     45 ,     40 ,     31 ,         4
-Castorno             ,Normal   ,Eau      , 79 ,     85 ,     60 ,     71 ,         4
-Crikzik              ,Insecte  ,         , 37 ,     25 ,     41 ,     25 ,         4
-Mélokrik             ,Insecte  ,         , 77 ,     85 ,     51 ,     65 ,         4
-Lixy                 ,Electrik ,         , 45 ,     65 ,     34 ,     45 ,         4
-Luxio                ,Electrik ,         , 60 ,     85 ,     49 ,     60 ,         4
-Luxray               ,Electrik ,         , 80 ,    120 ,     79 ,     70 ,         4
-Rozbouton            ,Plante   ,Poison   , 40 ,     30 ,     35 ,     55 ,         4
-Roserade             ,Plante   ,Poison   , 60 ,     70 ,     65 ,     90 ,         4
-Kranidos             ,Roche    ,         , 67 ,    125 ,     40 ,     58 ,         4
-Charkos              ,Roche    ,         , 97 ,    165 ,     60 ,     58 ,         4
-Dinoclier            ,Roche    ,Acier    , 30 ,     42 ,    118 ,     30 ,         4
-Bastiodon            ,Roche    ,Acier    , 60 ,     52 ,    168 ,     30 ,         4
-Cheniti              ,Insecte  ,         , 40 ,     29 ,     45 ,     36 ,         4
-"Cheniselle
-(Cape Plante)"       ,Insecte  ,Plante   , 60 ,     59 ,     85 ,     36 ,         4
-"Cheniselle
-(Cape Sol)"          ,Insecte  ,Sol      , 60 ,     79 ,    105 ,     36 ,         4
-"Cheniselle
-(Cape Déchet)"       ,Insecte  ,Acier    , 60 ,     69 ,     95 ,     36 ,         4
-Papilord             ,Insecte  ,Vol      , 70 ,     94 ,     50 ,     66 ,         4
-Apitrini             ,Insecte  ,Vol      , 30 ,     30 ,     42 ,     70 ,         4
-Apireine             ,Insecte  ,Vol      , 70 ,     80 ,    102 ,     40 ,         4
-Pachirisu            ,Electrik ,         , 60 ,     45 ,     70 ,     95 ,         4
-Mustébouée           ,Eau      ,         , 55 ,     65 ,     35 ,     85 ,         4
-Mustéflott           ,Eau      ,         , 85 ,    105 ,     55 ,    115 ,         4
-Ceribou              ,Plante   ,         , 45 ,     35 ,     45 ,     35 ,         4
-Ceriflor             ,Plante   ,         , 70 ,     60 ,     70 ,     85 ,         4
-Sancoki              ,Eau      ,         , 76 ,     48 ,     48 ,     34 ,         4
-Tritosor             ,Eau      ,Sol      ,111 ,     83 ,     68 ,     39 ,         4
-Capidextre           ,Normal   ,         , 75 ,    100 ,     66 ,    115 ,         4
-Baudrive             ,Spectre  ,Vol      , 90 ,     50 ,     34 ,     70 ,         4
-Grodrive             ,Spectre  ,Vol      ,150 ,     80 ,     44 ,     80 ,         4
-Laporeille           ,Normal   ,         , 55 ,     66 ,     44 ,     85 ,         4
-Lockpin              ,Normal   ,         , 65 ,     76 ,     84 ,    105 ,         4
-Méga-Lockpin         ,Normal   ,Combat   , 65 ,    136 ,     94 ,    135 ,         4
-Magirêve             ,Spectre  ,         , 60 ,     60 ,     60 ,    105 ,         4
-Corboss              ,Ténèbres ,Vol      ,100 ,    125 ,     52 ,     71 ,         4
-Chaglam              ,Normal   ,         , 49 ,     55 ,     42 ,     85 ,         4
-Chaffreux            ,Normal   ,         , 71 ,     82 ,     64 ,    112 ,         4
-Korillon             ,Psy      ,         , 45 ,     30 ,     50 ,     45 ,         4
-Moufouette           ,Poison   ,Ténèbres , 63 ,     63 ,     47 ,     74 ,         4
-Moufflair            ,Poison   ,Ténèbres ,103 ,     93 ,     67 ,     84 ,         4
-Archéomire           ,Acier    ,Psy      , 57 ,     24 ,     86 ,     23 ,         4
-Archéodong           ,Acier    ,Psy      , 67 ,     89 ,    116 ,     33 ,         4
-Manzaï               ,Roche    ,         , 50 ,     80 ,     95 ,     10 ,         4
-Mime Jr.             ,Psy      ,Fée      , 20 ,     25 ,     45 ,     60 ,         4
-Ptiravi              ,Normal   ,         ,100 ,      5 ,      5 ,     30 ,         4
-Pijako               ,Normal   ,Vol      , 76 ,     65 ,     45 ,     91 ,         4
-Spiritomb            ,Spectre  ,Ténèbres , 50 ,     92 ,    108 ,     35 ,         4
-Griknot              ,Dragon   ,Sol      , 58 ,     70 ,     45 ,     42 ,         4
-Carmache             ,Dragon   ,Sol      , 68 ,     90 ,     65 ,     82 ,         4
-Carchacrok           ,Dragon   ,Sol      ,108 ,    130 ,     95 ,    102 ,         4
-Méga-Carchacrok      ,Dragon   ,Sol      ,108 ,    170 ,    115 ,     92 ,         4
-Goinfrex             ,Normal   ,         ,135 ,     85 ,     40 ,      5 ,         4
-Riolu                ,Combat   ,         , 40 ,     70 ,     40 ,     60 ,         4
-Lucario              ,Combat   ,Acier    , 70 ,    110 ,     70 ,     90 ,         4
-Méga-Lucario         ,Combat   ,Acier    , 70 ,    145 ,     88 ,    112 ,         4
-Hippopotas           ,Sol      ,         , 68 ,     72 ,     78 ,     32 ,         4
-Hippodocus           ,Sol      ,         ,108 ,    112 ,    118 ,     47 ,         4
-Rapion               ,Poison   ,Insecte  , 40 ,     50 ,     90 ,     65 ,         4
-Drascore             ,Poison   ,Ténèbres , 70 ,     90 ,    110 ,     95 ,         4
-Cradopaud            ,Poison   ,Combat   , 48 ,     61 ,     40 ,     50 ,         4
-Coatox               ,Poison   ,Combat   , 83 ,    106 ,     65 ,     85 ,         4
-Vortente             ,Plante   ,         , 74 ,    100 ,     72 ,     46 ,         4
-Écayon               ,Eau      ,         , 49 ,     49 ,     56 ,     66 ,         4
-Luminéon             ,Eau      ,         , 69 ,     69 ,     76 ,     91 ,         4
-Babimanta            ,Eau      ,Vol      , 45 ,     20 ,     50 ,     50 ,         4
-Blizzi               ,Plante   ,Glace    , 60 ,     62 ,     50 ,     40 ,         4
-Blizzaroi            ,Plante   ,Glace    , 90 ,     92 ,     75 ,     60 ,         4
-Méga-Blizzaroi       ,Plante   ,Glace    , 90 ,    132 ,    105 ,     30 ,         4
-Dimoret              ,Ténèbres ,Glace    , 70 ,    120 ,     65 ,    125 ,         4
-Magnézone            ,Electrik ,Acier    , 70 ,     70 ,    115 ,     60 ,         4
-Coudlangue           ,Normal   ,         ,110 ,     85 ,     95 ,     50 ,         4
-Rhinastoc            ,Sol      ,Roche    ,115 ,    140 ,    130 ,     40 ,         4
-Bouldeneu            ,Plante   ,         ,100 ,    100 ,    125 ,     50 ,         4
-Élekable             ,Electrik ,         , 75 ,    123 ,     67 ,     95 ,         4
-Maganon              ,Feu      ,         , 75 ,     95 ,     67 ,     83 ,         4
-Togekiss             ,Fée      ,Vol      , 85 ,     50 ,     95 ,     80 ,         4
-Yanmega              ,Insecte  ,Vol      , 86 ,     76 ,     86 ,     95 ,         4
-Phyllali             ,Plante   ,         , 65 ,    110 ,    130 ,     95 ,         4
-Givrali              ,Glace    ,         , 65 ,     60 ,    110 ,     65 ,         4
-Scorvol              ,Sol      ,Vol      , 75 ,     95 ,    125 ,     95 ,         4
-Mammochon            ,Glace    ,Sol      ,110 ,    130 ,     80 ,     80 ,         4
-Porygon-Z            ,Normal   ,         , 85 ,     80 ,     70 ,     90 ,         4
-Gallame              ,Psy      ,Combat   , 68 ,    125 ,     65 ,     80 ,         4
-Méga-Gallame         ,Psy      ,Combat   , 68 ,    165 ,     95 ,    110 ,         4
-Tarinorme            ,Roche    ,Acier    , 60 ,     55 ,    145 ,     40 ,         4
-Noctunoir            ,Spectre  ,         , 45 ,    100 ,    135 ,     45 ,         4
-Momartik             ,Glace    ,Spectre  , 70 ,     80 ,     70 ,    110 ,         4
-"Motisma
-(Forme Normale)"     ,Electrik ,Spectre  , 50 ,     50 ,     77 ,     91 ,         4
-"Motisma
-(Forme Chaleur)"     ,Electrik ,Feu      , 50 ,     65 ,    107 ,     86 ,         4
-"Motisma
-(Forme Lavage)"      ,Electrik ,Eau      , 50 ,     65 ,    107 ,     86 ,         4
-"Motisma
-(Forme Froid)"       ,Electrik ,Glace    , 50 ,     65 ,    107 ,     86 ,         4
-"Motisma
-(Forme Tonte)"       ,Electrik ,Vol      , 50 ,     65 ,    107 ,     86 ,         4
-"Motisma
-(Forme HélGlace)"    ,Electrik ,Plante   , 50 ,     65 ,    107 ,     86 ,         4
-Créhelf              ,Psy      ,         , 75 ,     75 ,    130 ,     95 ,         4
-Créfollet            ,Psy      ,         , 80 ,    105 ,    105 ,     80 ,         4
-Créfadet             ,Psy      ,         , 75 ,    125 ,     70 ,    115 ,         4
-Dialga               ,Acier    ,Dragon   ,100 ,    120 ,    120 ,     90 ,         4
-Palkia               ,Eau      ,Dragon   , 90 ,    120 ,    100 ,    100 ,         4
-Heatran              ,Feu      ,Acier    , 91 ,     90 ,    106 ,     77 ,         4
-Regigigas            ,Normal   ,         ,110 ,    160 ,    110 ,    100 ,         4
-"Giratina
-(Forme Alternative)" ,Spectre  ,Dragon   ,150 ,    100 ,    120 ,     90 ,         4
-"Giratina
-(Forme Originelle)"  ,Spectre  ,Dragon   ,150 ,    120 ,    100 ,     90 ,         4
-Cresselia            ,Psy      ,         ,120 ,     70 ,    120 ,     85 ,         4
-Phione               ,Eau      ,         , 80 ,     80 ,     80 ,     80 ,         4
-Manaphy              ,Eau      ,         ,100 ,    100 ,    100 ,    100 ,         4
-Darkrai              ,Ténèbres ,         , 70 ,     90 ,     90 ,    125 ,         4
-"Shaymin
-(Forme Terrestre)"   ,Plante   ,         ,100 ,    100 ,    100 ,    100 ,         4
-"Shaymin
-(Forme Céleste)"     ,Plante   ,Vol      ,100 ,    103 ,     75 ,    127 ,         4
-Arceus               ,Normal   ,         ,120 ,    120 ,    120 ,    120 ,         4
-Victini              ,Psy      ,Feu      ,100 ,    100 ,    100 ,    100 ,         5
-Vipélierre           ,Plante   ,         , 45 ,     45 ,     55 ,     63 ,         5
-Lianaja              ,Plante   ,         , 60 ,     60 ,     75 ,     83 ,         5
-Majaspic             ,Plante   ,         , 75 ,     75 ,     95 ,    113 ,         5
-Gruikui              ,Feu      ,         , 65 ,     63 ,     45 ,     45 ,         5
-Grotichon            ,Feu      ,Combat   , 90 ,     93 ,     55 ,     55 ,         5
-Roitiflam            ,Feu      ,Combat   ,110 ,    123 ,     65 ,     65 ,         5
-Moustillon           ,Eau      ,         , 55 ,     55 ,     45 ,     45 ,         5
-Mateloutre           ,Eau      ,         , 75 ,     75 ,     60 ,     60 ,         5
-Clamiral             ,Eau      ,         , 95 ,    100 ,     85 ,     70 ,         5
-Ratentif             ,Normal   ,         , 45 ,     55 ,     39 ,     42 ,         5
-Miradar              ,Normal   ,         , 60 ,     85 ,     69 ,     77 ,         5
-Ponchiot             ,Normal   ,         , 45 ,     60 ,     45 ,     55 ,         5
-Ponchien             ,Normal   ,         , 65 ,     80 ,     65 ,     60 ,         5
-Mastouffe            ,Normal   ,         , 85 ,    110 ,     90 ,     80 ,         5
-Chacripan            ,Ténèbres ,         , 41 ,     50 ,     37 ,     66 ,         5
-Léopardus            ,Ténèbres ,         , 64 ,     88 ,     50 ,    106 ,         5
-Feuillajou           ,Plante   ,         , 50 ,     53 ,     48 ,     64 ,         5
-Feuiloutan           ,Plante   ,         , 75 ,     98 ,     63 ,    101 ,         5
-Flamajou             ,Feu      ,         , 50 ,     53 ,     48 ,     64 ,         5
-Flamoutan            ,Feu      ,         , 75 ,     98 ,     63 ,    101 ,         5
-Flotajou             ,Eau      ,         , 50 ,     53 ,     48 ,     64 ,         5
-Flotoutan            ,Eau      ,         , 75 ,     98 ,     63 ,    101 ,         5
-Munna                ,Psy      ,         , 76 ,     25 ,     45 ,     24 ,         5
-Mushana              ,Psy      ,         ,116 ,     55 ,     85 ,     29 ,         5
-Poichigeon           ,Normal   ,Vol      , 50 ,     55 ,     50 ,     43 ,         5
-Colombeau            ,Normal   ,Vol      , 62 ,     77 ,     62 ,     65 ,         5
-Déflaisan            ,Normal   ,Vol      , 80 ,    115 ,     80 ,     93 ,         5
-Zébibron             ,Electrik ,         , 45 ,     60 ,     32 ,     76 ,         5
-Zéblitz              ,Electrik ,         , 75 ,    100 ,     63 ,    116 ,         5
-Nodulithe            ,Roche    ,         , 55 ,     75 ,     85 ,     15 ,         5
-Géolithe             ,Roche    ,         , 70 ,    105 ,    105 ,     20 ,         5
-Gigalithe            ,Roche    ,         , 85 ,    135 ,    130 ,     25 ,         5
-Chovsourir           ,Psy      ,Vol      , 55 ,     45 ,     43 ,     72 ,         5
-Rhinolove            ,Psy      ,Vol      , 67 ,     57 ,     55 ,    114 ,         5
-Rototaupe            ,Sol      ,         , 60 ,     85 ,     40 ,     68 ,         5
-Minotaupe            ,Sol      ,Acier    ,110 ,    135 ,     60 ,     88 ,         5
-Nanméouïe            ,Normal   ,         ,103 ,     60 ,     86 ,     50 ,         5
-Méga-Nanméouïe       ,Normal   ,Fée      ,103 ,     60 ,    126 ,     50 ,         5
-Charpenti            ,Combat   ,         , 75 ,     80 ,     55 ,     35 ,         5
-Ouvrifier            ,Combat   ,         , 85 ,    105 ,     85 ,     40 ,         5
-Bétochef             ,Combat   ,         ,105 ,    140 ,     95 ,     45 ,         5
-Tritonde             ,Eau      ,         , 50 ,     50 ,     40 ,     64 ,         5
-Batracné             ,Eau      ,Sol      , 75 ,     65 ,     55 ,     69 ,         5
-Crapustule           ,Eau      ,Sol      ,105 ,     95 ,     75 ,     74 ,         5
-Judokrak             ,Combat   ,         ,120 ,    100 ,     85 ,     45 ,         5
-Karaclée             ,Combat   ,         , 75 ,    125 ,     75 ,     85 ,         5
-Larveyette           ,Insecte  ,Plante   , 45 ,     53 ,     70 ,     42 ,         5
-Couverdure           ,Insecte  ,Plante   , 55 ,     63 ,     90 ,     42 ,         5
-Manternel            ,Insecte  ,Plante   , 75 ,    103 ,     80 ,     92 ,         5
-Venipatte            ,Insecte  ,Poison   , 30 ,     45 ,     59 ,     57 ,         5
-Scobolide            ,Insecte  ,Poison   , 40 ,     55 ,     99 ,     47 ,         5
-Brutapode            ,Insecte  ,Poison   , 60 ,    100 ,     89 ,    112 ,         5
-Doudouvet            ,Plante   ,Fée      , 40 ,     27 ,     60 ,     66 ,         5
-Farfaduvet           ,Plante   ,Fée      , 60 ,     67 ,     85 ,    116 ,         5
-Chlorobule           ,Plante   ,         , 45 ,     35 ,     50 ,     30 ,         5
-Fragilady            ,Plante   ,         , 70 ,     60 ,     75 ,     90 ,         5
-Bargantua            ,Eau      ,         , 70 ,     92 ,     65 ,     98 ,         5
-Mascaïman            ,Sol      ,Ténèbres , 50 ,     72 ,     35 ,     65 ,         5
-Escroco              ,Sol      ,Ténèbres , 60 ,     82 ,     45 ,     74 ,         5
-Crocorible           ,Sol      ,Ténèbres , 95 ,    117 ,     80 ,     92 ,         5
-Darumarond           ,Feu      ,         , 70 ,     90 ,     45 ,     50 ,         5
-"Darumacho
-(Mode Normal)"       ,Feu      ,         ,105 ,    140 ,     55 ,     95 ,         5
-"Darumacho
-(Mode Daruma)"       ,Feu      ,Psy      ,105 ,     30 ,    105 ,     55 ,         5
-Maracachi            ,Plante   ,         , 75 ,     86 ,     67 ,     60 ,         5
-Crabicoque           ,Insecte  ,Roche    , 50 ,     65 ,     85 ,     55 ,         5
-Crabaraque           ,Insecte  ,Roche    , 70 ,     95 ,    125 ,     45 ,         5
-Baggiguane           ,Ténèbres ,Combat   , 50 ,     75 ,     70 ,     48 ,         5
-Baggaïd              ,Ténèbres ,Combat   , 65 ,     90 ,    115 ,     58 ,         5
-Cryptéro             ,Psy      ,Vol      , 72 ,     58 ,     80 ,     97 ,         5
-Tutafeh              ,Spectre  ,         , 38 ,     30 ,     85 ,     30 ,         5
-Tutankafer           ,Spectre  ,         , 58 ,     50 ,    145 ,     30 ,         5
-Carapagos            ,Eau      ,Roche    , 54 ,     78 ,    103 ,     22 ,         5
-Mégapagos            ,Eau      ,Roche    , 74 ,    108 ,    133 ,     32 ,         5
-Arkéapti             ,Roche    ,Vol      , 55 ,    112 ,     45 ,     70 ,         5
-Aéroptéryx           ,Roche    ,Vol      , 75 ,    140 ,     65 ,    110 ,         5
-Miamiasme            ,Poison   ,         , 50 ,     50 ,     62 ,     65 ,         5
-Miasmax              ,Poison   ,         , 80 ,     95 ,     82 ,     75 ,         5
-Zorua                ,Ténèbres ,         , 40 ,     65 ,     40 ,     65 ,         5
-Zoroark              ,Ténèbres ,         , 60 ,    105 ,     60 ,    105 ,         5
-Chinchidou           ,Normal   ,         , 55 ,     50 ,     40 ,     75 ,         5
-Pashmilla            ,Normal   ,         , 75 ,     95 ,     60 ,    115 ,         5
-Scrutella            ,Psy      ,         , 45 ,     30 ,     50 ,     45 ,         5
-Mesmérella           ,Psy      ,         , 60 ,     45 ,     70 ,     55 ,         5
-Sidérella            ,Psy      ,         , 70 ,     55 ,     95 ,     65 ,         5
-Nucléos              ,Psy      ,         , 45 ,     30 ,     40 ,     20 ,         5
-Méios                ,Psy      ,         , 65 ,     40 ,     50 ,     30 ,         5
-Symbios              ,Psy      ,         ,110 ,     65 ,     75 ,     30 ,         5
-Couaneton            ,Eau      ,Vol      , 62 ,     44 ,     50 ,     55 ,         5
-Lakmécygne           ,Eau      ,Vol      , 75 ,     87 ,     63 ,     98 ,         5
-Sorbébé              ,Glace    ,         , 36 ,     50 ,     50 ,     44 ,         5
-Sorboul              ,Glace    ,         , 51 ,     65 ,     65 ,     59 ,         5
-Sorbouboul           ,Glace    ,         , 71 ,     95 ,     85 ,     79 ,         5
-Vivaldaim            ,Normal   ,Plante   , 60 ,     60 ,     50 ,     75 ,         5
-Haydaim              ,Normal   ,Plante   , 80 ,    100 ,     70 ,     95 ,         5
-Emolga               ,Electrik ,Vol      , 55 ,     75 ,     60 ,    103 ,         5
-Carabing             ,Insecte  ,         , 50 ,     75 ,     45 ,     60 ,         5
-Lançargot            ,Insecte  ,Acier    , 70 ,    135 ,    105 ,     20 ,         5
-Trompignon           ,Plante   ,Poison   , 69 ,     55 ,     45 ,     15 ,         5
-Gaulet               ,Plante   ,Poison   ,114 ,     85 ,     70 ,     30 ,         5
-Viskuse              ,Eau      ,Spectre  , 55 ,     40 ,     50 ,     40 ,         5
-Moyade               ,Eau      ,Spectre  ,100 ,     60 ,     70 ,     60 ,         5
-Mamanbo              ,Eau      ,         ,165 ,     75 ,     80 ,     65 ,         5
-Statitik             ,Insecte  ,Electrik , 50 ,     47 ,     50 ,     65 ,         5
-Mygavolt             ,Insecte  ,Electrik , 70 ,     77 ,     60 ,    108 ,         5
-Grindur              ,Plante   ,Acier    , 44 ,     50 ,     91 ,     10 ,         5
-Noacier              ,Plante   ,Acier    , 74 ,     94 ,    131 ,     20 ,         5
-Tic                  ,Acier    ,         , 40 ,     55 ,     70 ,     30 ,         5
-Clic                 ,Acier    ,         , 60 ,     80 ,     95 ,     50 ,         5
-Cliticlic            ,Acier    ,         , 60 ,    100 ,    115 ,     90 ,         5
-Anchwatt             ,Electrik ,         , 35 ,     55 ,     40 ,     60 ,         5
-Lampéroie            ,Electrik ,         , 65 ,     85 ,     70 ,     40 ,         5
-Ohmassacre           ,Electrik ,         , 85 ,    115 ,     80 ,     50 ,         5
-Lewsor               ,Psy      ,         , 55 ,     55 ,     55 ,     30 ,         5
-Neitram              ,Psy      ,         , 75 ,     75 ,     75 ,     40 ,         5
-Funécire             ,Spectre  ,Feu      , 50 ,     30 ,     55 ,     20 ,         5
-Mélancolux           ,Spectre  ,Feu      , 60 ,     40 ,     60 ,     55 ,         5
-Lugulabre            ,Spectre  ,Feu      , 60 ,     55 ,     90 ,     80 ,         5
-Coupenotte           ,Dragon   ,         , 46 ,     87 ,     60 ,     57 ,         5
-Incisache            ,Dragon   ,         , 66 ,    117 ,     70 ,     67 ,         5
-Tranchodon           ,Dragon   ,         , 76 ,    147 ,     90 ,     97 ,         5
-Polarhume            ,Glace    ,         , 55 ,     70 ,     40 ,     40 ,         5
-Polagriffe           ,Glace    ,         , 95 ,    110 ,     80 ,     50 ,         5
-Hexagel              ,Glace    ,         , 70 ,     50 ,     30 ,    105 ,         5
-Escargaume           ,Insecte  ,         , 50 ,     40 ,     85 ,     25 ,         5
-Limaspeed            ,Insecte  ,         , 80 ,     70 ,     40 ,    145 ,         5
-Limonde              ,Sol      ,Electrik ,109 ,     66 ,     84 ,     32 ,         5
-Kungfouine           ,Combat   ,         , 45 ,     85 ,     50 ,     65 ,         5
-Shaofouine           ,Combat   ,         , 65 ,    125 ,     60 ,    105 ,         5
-Drakkarmin           ,Dragon   ,         , 77 ,    120 ,     90 ,     48 ,         5
-Gringolem            ,Sol      ,Spectre  , 59 ,     74 ,     50 ,     35 ,         5
-Golemastoc           ,Sol      ,Spectre  , 89 ,    124 ,     80 ,     55 ,         5
-Scalpion             ,Ténèbres ,Acier    , 45 ,     85 ,     70 ,     60 ,         5
-Scalproie            ,Ténèbres ,Acier    , 65 ,    125 ,    100 ,     70 ,         5
-Frison               ,Normal   ,         , 95 ,    110 ,     95 ,     55 ,         5
-Furaiglon            ,Normal   ,Vol      , 70 ,     83 ,     50 ,     60 ,         5
-Gueriaigle           ,Normal   ,Vol      ,100 ,    123 ,     75 ,     80 ,         5
-Vostourno            ,Ténèbres ,Vol      , 70 ,     55 ,     75 ,     60 ,         5
-VaututrGlace         ,Ténèbres ,Vol      ,110 ,     65 ,    105 ,     80 ,         5
-Aflamanoir           ,Feu      ,         , 85 ,     97 ,     66 ,     65 ,         5
-Fermite              ,Insecte  ,Acier    , 58 ,    109 ,    112 ,    109 ,         5
-Solochi              ,Ténèbres ,Dragon   , 52 ,     65 ,     50 ,     38 ,         5
-Diamat               ,Ténèbres ,Dragon   , 72 ,     85 ,     70 ,     58 ,         5
-Trioxhydre           ,Ténèbres ,Dragon   , 92 ,    105 ,     90 ,     98 ,         5
-Pyronille            ,Insecte  ,Feu      , 55 ,     85 ,     55 ,     60 ,         5
-Pyrax                ,Insecte  ,Feu      , 85 ,     60 ,     65 ,    100 ,         5
-Cobaltium            ,Acier    ,Combat   , 91 ,     90 ,    129 ,    108 ,         5
-Terrakium            ,Roche    ,Combat   , 91 ,    129 ,     90 ,    108 ,         5
-Viridium             ,Plante   ,Combat   , 91 ,     90 ,     72 ,    108 ,         5
-"Boréas
-(Forme Avatar)"      ,Vol      ,         , 79 ,    115 ,     70 ,    111 ,         5
-"Boréas
-(Forme Totémique)"   ,Vol      ,         , 79 ,    100 ,     80 ,    121 ,         5
-"Fulguris
-(Forme Avatar)"      ,Electrik ,Vol      , 79 ,    115 ,     70 ,    111 ,         5
-"Fulguris
-(Forme Totémique)"   ,Electrik ,Vol      , 79 ,    105 ,     70 ,    101 ,         5
-Reshiram             ,Dragon   ,Feu      ,100 ,    120 ,    100 ,     90 ,         5
-Zekrom               ,Dragon   ,Electrik ,100 ,    150 ,    120 ,     90 ,         5
-"Démétéros
-(Forme Avatar)"      ,Sol      ,Vol      , 89 ,    125 ,     90 ,    101 ,         5
-"Démétéros
-(Forme Totémique)"   ,Sol      ,Vol      , 89 ,    145 ,     90 ,     91 ,         5
-Kyurem               ,Dragon   ,Glace    ,125 ,    130 ,     90 ,     95 ,         5
-Kyurem Noir          ,Dragon   ,Glace    ,125 ,    170 ,    100 ,     95 ,         5
-Kyurem Blanc         ,Dragon   ,Glace    ,125 ,    120 ,     90 ,     95 ,         5
-Keldeo               ,Eau      ,Combat   , 91 ,     72 ,     90 ,    108 ,         5
-"Meloetta
-(Forme Voix)"        ,Normal   ,Psy      ,100 ,     77 ,     77 ,     90 ,         5
-"Meloetta
-(Forme Danse)"       ,Normal   ,Combat   ,100 ,    128 ,     90 ,    128 ,         5
-Genesect             ,Insecte  ,Acier    , 71 ,    120 ,     95 ,     99 ,         5
-Marisson             ,Plante   ,         , 56 ,     61 ,     65 ,     38 ,         6
-Boguérisse           ,Plante   ,         , 61 ,     78 ,     95 ,     57 ,         6
-Blindépique          ,Plante   ,Combat   , 88 ,    107 ,    122 ,     64 ,         6
-Feunnec              ,Feu      ,         , 40 ,     45 ,     40 ,     60 ,         6
-Roussil              ,Feu      ,         , 59 ,     59 ,     58 ,     73 ,         6
-Goupelin             ,Feu      ,Psy      , 75 ,     69 ,     72 ,    104 ,         6
-Grenousse            ,Eau      ,         , 41 ,     56 ,     40 ,     71 ,         6
-Croâporal            ,Eau      ,         , 54 ,     63 ,     52 ,     97 ,         6
-Amphinobi            ,Eau      ,Ténèbres , 72 ,     95 ,     67 ,    122 ,         6
-Sapereau             ,Normal   ,         , 38 ,     36 ,     38 ,     57 ,         6
-Excavarenne          ,Normal   ,Sol      , 85 ,     56 ,     77 ,     78 ,         6
-Passerouge           ,Normal   ,Vol      , 45 ,     50 ,     43 ,     62 ,         6
-Braisillon           ,Feu      ,Vol      , 62 ,     73 ,     55 ,     84 ,         6
-Flambusard           ,Feu      ,Vol      , 78 ,     81 ,     71 ,    126 ,         6
-Lépidonille          ,Insecte  ,         , 38 ,     35 ,     40 ,     35 ,         6
-Pérégrain            ,Insecte  ,         , 45 ,     22 ,     60 ,     29 ,         6
-Prismillon           ,Insecte  ,Vol      , 80 ,     52 ,     50 ,     89 ,         6
-Hélionceau           ,Feu      ,Normal   , 62 ,     50 ,     58 ,     72 ,         6
-Némélios             ,Feu      ,Normal   , 86 ,     68 ,     72 ,    106 ,         6
-Flabébé              ,Fée      ,         , 44 ,     38 ,     39 ,     42 ,         6
-Floette              ,Fée      ,         , 54 ,     45 ,     47 ,     52 ,         6
-Florges              ,Fée      ,         , 78 ,     65 ,     68 ,     75 ,         6
-Cabriolaine          ,Plante   ,         , 66 ,     65 ,     48 ,     52 ,         6
-Chevroum             ,Plante   ,         ,123 ,    100 ,     62 ,     68 ,         6
-Pandespiègle         ,Combat   ,         , 67 ,     82 ,     62 ,     43 ,         6
-Pandarbare           ,Combat   ,Ténèbres , 95 ,    124 ,     78 ,     58 ,         6
-Couafarel            ,Normal   ,         , 75 ,     80 ,     60 ,    102 ,         6
-Psystigri            ,Psy      ,         , 62 ,     48 ,     54 ,     68 ,         6
-Mistigrix            ,Psy      ,         , 74 ,     48 ,     76 ,    104 ,         6
-Monorpale            ,Acier    ,Spectre  , 45 ,     80 ,    100 ,     28 ,         6
-Dimoclès             ,Acier    ,Spectre  , 59 ,    110 ,    150 ,     35 ,         6
-"Exagide
-(Forme Assaut)"      ,Acier    ,Spectre  , 60 ,    150 ,     50 ,     60 ,         6
-"Exagide
-(Forme Parade)"      ,Acier    ,Spectre  , 60 ,     50 ,    150 ,     60 ,         6
-Fluvetin             ,Fée      ,         , 78 ,     52 ,     60 ,     23 ,         6
-Cocotine             ,Fée      ,         ,101 ,     72 ,     72 ,     29 ,         6
-Sucroquin            ,Fée      ,         , 62 ,     48 ,     66 ,     49 ,         6
-Cupcanaille          ,Fée      ,         , 82 ,     80 ,     86 ,     72 ,         6
-Sepiatop             ,Ténèbres ,Psy      , 53 ,     54 ,     53 ,     45 ,         6
-Sepiatroce           ,Ténèbres ,Psy      , 86 ,     92 ,     88 ,     73 ,         6
-Opermine             ,Roche    ,Eau      , 42 ,     52 ,     67 ,     50 ,         6
-Golgopathe           ,Roche    ,Eau      , 72 ,    105 ,    115 ,     68 ,         6
-Venalgue             ,Poison   ,Eau      , 50 ,     60 ,     60 ,     30 ,         6
-Kravarech            ,Poison   ,Dragon   , 65 ,     75 ,     90 ,     44 ,         6
-Flingouste           ,Eau      ,         , 50 ,     53 ,     62 ,     44 ,         6
-Gamblast             ,Eau      ,         , 71 ,     73 ,     88 ,     59 ,         6
-Galvaran             ,Electrik ,Normal   , 44 ,     38 ,     33 ,     70 ,         6
-Iguolta              ,Electrik ,Normal   , 62 ,     55 ,     52 ,    109 ,         6
-Ptyranidur           ,Roche    ,Dragon   , 58 ,     89 ,     77 ,     48 ,         6
-Rexillius            ,Roche    ,Dragon   , 82 ,    121 ,    119 ,     71 ,         6
-Amagara              ,Roche    ,Glace    , 77 ,     59 ,     50 ,     46 ,         6
-Dragmara             ,Roche    ,Glace    ,123 ,     77 ,     72 ,     58 ,         6
-Nymphali             ,Fée      ,         , 95 ,     65 ,     65 ,     60 ,         6
-Brutalibré           ,Combat   ,Vol      , 78 ,     92 ,     75 ,    118 ,         6
-Dedenne              ,Electrik ,Fée      , 67 ,     58 ,     57 ,    101 ,         6
-Strassie             ,Roche    ,Fée      , 50 ,     50 ,    150 ,     50 ,         6
-Mucuscule            ,Dragon   ,         , 45 ,     50 ,     35 ,     40 ,         6
-Colimucus            ,Dragon   ,         , 68 ,     75 ,     53 ,     60 ,         6
-Muplodocus           ,Dragon   ,         , 90 ,    100 ,     70 ,     80 ,         6
-Trousselin           ,Acier    ,Fée      , 57 ,     80 ,     91 ,     75 ,         6
-Brocélôme            ,Spectre  ,Plante   , 43 ,     70 ,     48 ,     38 ,         6
-Desséliande          ,Spectre  ,Plante   , 85 ,    110 ,     76 ,     56 ,         6
-"Pitrouille
-(Taille Mini)"       ,Spectre  ,Plante   , 49 ,     66 ,     70 ,     51 ,         6
-"Pitrouille
-(Taille Normale)"    ,Spectre  ,Plante   , 44 ,     66 ,     70 ,     56 ,         6
-"Pitrouille
-(Taille Maxi)"       ,Spectre  ,Plante   , 54 ,     66 ,     70 ,     46 ,         6
-"Pitrouille
-(Taille Ultra)"      ,Spectre  ,Plante   , 59 ,     66 ,     70 ,     41 ,         6
-"Banshitrouye
-(Taille Mini)"       ,Spectre  ,Plante   , 65 ,     90 ,    122 ,     84 ,         6
-"Banshitrouye
-(Taille Normale)"    ,Spectre  ,Plante   , 55 ,     85 ,    122 ,     99 ,         6
-"Banshitrouye
-(Taille Maxi)"       ,Spectre  ,Plante   , 75 ,     95 ,    122 ,     69 ,         6
-"Banshitrouye
-(Taille Ultra)"      ,Spectre  ,Plante   , 85 ,    100 ,    122 ,     54 ,         6
-Grelaçon             ,Glace    ,         , 55 ,     69 ,     85 ,     28 ,         6
-Séracrawl            ,Glace    ,         , 95 ,    117 ,    184 ,     28 ,         6
-Sonistrelle          ,Vol      ,Dragon   , 40 ,     30 ,     35 ,     55 ,         6
-Bruyverne            ,Vol      ,Dragon   , 85 ,     70 ,     80 ,    123 ,         6
-Xerneas              ,Fée      ,         ,126 ,    131 ,     95 ,     99 ,         6
-Yveltal              ,Ténèbres ,Vol      ,126 ,    131 ,     95 ,     99 ,         6
-"Zygarde
-(Forme 50%)"         ,Dragon   ,Sol      ,108 ,    100 ,    121 ,     95 ,         6
-Diancie              ,Roche    ,Fée      , 50 ,    100 ,    150 ,     50 ,         6
-Méga-Diancie         ,Roche    ,Fée      , 50 ,    160 ,    110 ,    110 ,         6
-"Hoopa
-(Forme Enchaînée)"   ,Psy      ,Spectre  , 80 ,    110 ,     60 ,     70 ,         6
-"Hoopa
-(Forme Déchaînée)"   ,Psy      ,Ténèbres , 80 ,    160 ,     60 ,     80 ,         6
-Volcanion            ,Feu      ,Eau      , 80 ,    110 ,    120 ,     70 ,         6
+Nom           ,Type 1   ,Type 2   ,HP  ,Attaque ,Défense ,Vitesse ,Génération
+Bulbizarre    ,Plante   ,Poison   , 45 ,     49 ,     49 ,     45 ,         1
+Herbizarre    ,Plante   ,Poison   , 60 ,     62 ,     63 ,     60 ,         1
+Florizarre    ,Plante   ,Poison   , 80 ,     82 ,     83 ,     80 ,         1
+Salamèche     ,Feu      ,         , 39 ,     52 ,     43 ,     65 ,         1
+Reptincel     ,Feu      ,         , 58 ,     64 ,     58 ,     80 ,         1
+Dracaufeu     ,Feu      ,Vol      , 78 ,     84 ,     78 ,    100 ,         1
+Carapuce      ,Eau      ,         , 44 ,     48 ,     65 ,     43 ,         1
+Carabaffe     ,Eau      ,         , 59 ,     63 ,     80 ,     58 ,         1
+Tortank       ,Eau      ,         , 79 ,     83 ,    100 ,     78 ,         1
+Chenipan      ,Insecte  ,         , 45 ,     30 ,     35 ,     45 ,         1
+Chrysacier    ,Insecte  ,         , 50 ,     20 ,     55 ,     30 ,         1
+Papilusion    ,Insecte  ,Vol      , 60 ,     45 ,     50 ,     70 ,         1
+Aspicot       ,Insecte  ,Poison   , 40 ,     35 ,     30 ,     50 ,         1
+Coconfort     ,Insecte  ,Poison   , 45 ,     25 ,     50 ,     35 ,         1
+Dardargnan    ,Insecte  ,Poison   , 65 ,     90 ,     40 ,     75 ,         1
+Roucool       ,Normal   ,Vol      , 40 ,     45 ,     40 ,     56 ,         1
+Roucoups      ,Normal   ,Vol      , 63 ,     60 ,     55 ,     71 ,         1
+Roucarnage    ,Normal   ,Vol      , 83 ,     80 ,     75 ,    101 ,         1
+Rattata       ,Normal   ,         , 30 ,     56 ,     35 ,     72 ,         1
+Rattatac      ,Normal   ,         , 55 ,     81 ,     60 ,     97 ,         1
+Piafabec      ,Normal   ,Vol      , 40 ,     60 ,     30 ,     70 ,         1
+Rapasdepic    ,Normal   ,Vol      , 65 ,     90 ,     65 ,    100 ,         1
+Abo           ,Poison   ,         , 35 ,     60 ,     44 ,     55 ,         1
+Arbok         ,Poison   ,         , 60 ,     85 ,     69 ,     80 ,         1
+Pikachu       ,Electrik ,         , 35 ,     55 ,     40 ,     90 ,         1
+Raichu        ,Electrik ,         , 60 ,     90 ,     55 ,    110 ,         1
+Sabelette     ,Sol      ,         , 50 ,     75 ,     85 ,     40 ,         1
+Sablaireau    ,Sol      ,         , 75 ,    100 ,    110 ,     65 ,         1
+Nidoran♀      ,Poison   ,         , 55 ,     47 ,     52 ,     41 ,         1
+Nidorina      ,Poison   ,         , 70 ,     62 ,     67 ,     56 ,         1
+Nidoqueen     ,Poison   ,Sol      , 90 ,     92 ,     87 ,     76 ,         1
+Nidoran♂      ,Poison   ,         , 46 ,     57 ,     40 ,     50 ,         1
+Nidorino      ,Poison   ,         , 61 ,     72 ,     57 ,     65 ,         1
+Nidoking      ,Poison   ,Sol      , 81 ,    102 ,     77 ,     85 ,         1
+Mélofée       ,Fée      ,         , 70 ,     45 ,     48 ,     35 ,         1
+Mélodelfe     ,Fée      ,         , 95 ,     70 ,     73 ,     60 ,         1
+Goupix        ,Feu      ,         , 38 ,     41 ,     40 ,     65 ,         1
+Feunard       ,Feu      ,         , 73 ,     76 ,     75 ,    100 ,         1
+Rondoudou     ,Normal   ,Fée      ,115 ,     45 ,     20 ,     20 ,         1
+Grodoudou     ,Normal   ,Fée      ,140 ,     70 ,     45 ,     45 ,         1
+Nosferapti    ,Poison   ,Vol      , 40 ,     45 ,     35 ,     55 ,         1
+Nosferalto    ,Poison   ,Vol      , 75 ,     80 ,     70 ,     90 ,         1
+Mystherbe     ,Plante   ,Poison   , 45 ,     50 ,     55 ,     30 ,         1
+Ortide        ,Plante   ,Poison   , 60 ,     65 ,     70 ,     40 ,         1
+Rafflesia     ,Plante   ,Poison   , 75 ,     80 ,     85 ,     50 ,         1
+Paras         ,Insecte  ,Plante   , 35 ,     70 ,     55 ,     25 ,         1
+Parasect      ,Insecte  ,Plante   , 60 ,     95 ,     80 ,     30 ,         1
+Mimitoss      ,Insecte  ,Poison   , 60 ,     55 ,     50 ,     45 ,         1
+Aéromite      ,Insecte  ,Poison   , 70 ,     65 ,     60 ,     90 ,         1
+Taupiqueur    ,Sol      ,         , 10 ,     55 ,     25 ,     95 ,         1
+Triopikeur    ,Sol      ,         , 35 ,     80 ,     50 ,    120 ,         1
+Miaouss       ,Normal   ,         , 40 ,     45 ,     35 ,     90 ,         1
+Persian       ,Normal   ,         , 65 ,     70 ,     60 ,    115 ,         1
+Psykokwak     ,Eau      ,         , 50 ,     52 ,     48 ,     55 ,         1
+Akwakwak      ,Eau      ,         , 80 ,     82 ,     78 ,     85 ,         1
+Férosinge     ,Combat   ,         , 40 ,     80 ,     35 ,     70 ,         1
+Colossinge    ,Combat   ,         , 65 ,    105 ,     60 ,     95 ,         1
+Caninos       ,Feu      ,         , 55 ,     70 ,     45 ,     60 ,         1
+Arcanin       ,Feu      ,         , 90 ,    110 ,     80 ,     95 ,         1
+Ptitard       ,Eau      ,         , 40 ,     50 ,     40 ,     90 ,         1
+Têtarte       ,Eau      ,         , 65 ,     65 ,     65 ,     90 ,         1
+Tartard       ,Eau      ,Combat   , 90 ,     95 ,     95 ,     70 ,         1
+Abra          ,Psy      ,         , 25 ,     20 ,     15 ,     90 ,         1
+Kadabra       ,Psy      ,         , 40 ,     35 ,     30 ,    105 ,         1
+Alakazam      ,Psy      ,         , 55 ,     50 ,     45 ,    120 ,         1
+Machoc        ,Combat   ,         , 70 ,     80 ,     50 ,     35 ,         1
+Machopeur     ,Combat   ,         , 80 ,    100 ,     70 ,     45 ,         1
+Mackogneur    ,Combat   ,         , 90 ,    130 ,     80 ,     55 ,         1
+Chétiflor     ,Plante   ,Poison   , 50 ,     75 ,     35 ,     40 ,         1
+Boustiflor    ,Plante   ,Poison   , 65 ,     90 ,     50 ,     55 ,         1
+Empiflor      ,Plante   ,Poison   , 80 ,    105 ,     65 ,     70 ,         1
+Tentacool     ,Eau      ,Poison   , 40 ,     40 ,     35 ,     70 ,         1
+Tentacruel    ,Eau      ,Poison   , 80 ,     70 ,     65 ,    100 ,         1
+Racaillou     ,Roche    ,Sol      , 40 ,     80 ,    100 ,     20 ,         1
+Gravalanch    ,Roche    ,Sol      , 55 ,     95 ,    115 ,     35 ,         1
+Grolem        ,Roche    ,Sol      , 80 ,    120 ,    130 ,     45 ,         1
+Ponyta        ,Feu      ,         , 50 ,     85 ,     55 ,     90 ,         1
+Galopa        ,Feu      ,         , 65 ,    100 ,     70 ,    105 ,         1
+Ramoloss      ,Eau      ,Psy      , 90 ,     65 ,     65 ,     15 ,         1
+Flagadoss     ,Eau      ,Psy      , 95 ,     75 ,    110 ,     30 ,         1
+Magnéti       ,Electrik ,Acier    , 25 ,     35 ,     70 ,     45 ,         1
+Magnéton      ,Electrik ,Acier    , 50 ,     60 ,     95 ,     70 ,         1
+Canarticho    ,Normal   ,Vol      , 52 ,     65 ,     55 ,     60 ,         1
+Doduo         ,Normal   ,Vol      , 35 ,     85 ,     45 ,     75 ,         1
+Dodrio        ,Normal   ,Vol      , 60 ,    110 ,     70 ,    100 ,         1
+Otaria        ,Eau      ,         , 65 ,     45 ,     55 ,     45 ,         1
+Lamantine     ,Eau      ,Glace    , 90 ,     70 ,     80 ,     70 ,         1
+Tadmorv       ,Poison   ,         , 80 ,     80 ,     50 ,     25 ,         1
+Grotadmorv    ,Poison   ,         ,105 ,    105 ,     75 ,     50 ,         1
+Kokiyas       ,Eau      ,         , 30 ,     65 ,    100 ,     40 ,         1
+Crustabri     ,Eau      ,Glace    , 50 ,     95 ,    180 ,     70 ,         1
+Fantominus    ,Spectre  ,Poison   , 30 ,     35 ,     30 ,     80 ,         1
+Spectrum      ,Spectre  ,Poison   , 45 ,     50 ,     45 ,     95 ,         1
+Ectoplasma    ,Spectre  ,Poison   , 60 ,     65 ,     60 ,    110 ,         1
+Onix          ,Roche    ,Sol      , 35 ,     45 ,    160 ,     70 ,         1
+Soporifik     ,Psy      ,         , 60 ,     48 ,     45 ,     42 ,         1
+Hypnomade     ,Psy      ,         , 85 ,     73 ,     70 ,     67 ,         1
+Krabby        ,Eau      ,         , 30 ,    105 ,     90 ,     50 ,         1
+Krabboss      ,Eau      ,         , 55 ,    130 ,    115 ,     75 ,         1
+Voltorbe      ,Electrik ,         , 40 ,     30 ,     50 ,    100 ,         1
+Électrode     ,Electrik ,         , 60 ,     50 ,     70 ,    140 ,         1
+Noeunoeuf     ,Plante   ,Psy      , 60 ,     40 ,     80 ,     40 ,         1
+Noadkoko      ,Plante   ,Psy      , 95 ,     95 ,     85 ,     55 ,         1
+Osselait      ,Sol      ,         , 50 ,     50 ,     95 ,     35 ,         1
+Ossatueur     ,Sol      ,         , 60 ,     80 ,    110 ,     45 ,         1
+Kicklee       ,Combat   ,         , 50 ,    120 ,     53 ,     87 ,         1
+Tygnon        ,Combat   ,         , 50 ,    105 ,     79 ,     76 ,         1
+Excelangue    ,Normal   ,         , 90 ,     55 ,     75 ,     30 ,         1
+Smogo         ,Poison   ,         , 40 ,     65 ,     95 ,     35 ,         1
+Smogogo       ,Poison   ,         , 65 ,     90 ,    120 ,     60 ,         1
+Rhinocorne    ,Sol      ,Roche    , 80 ,     85 ,     95 ,     25 ,         1
+Rhinoféros    ,Sol      ,Roche    ,105 ,    130 ,    120 ,     40 ,         1
+Leveinard     ,Normal   ,         ,250 ,      5 ,      5 ,     50 ,         1
+Saquedeneu    ,Plante   ,         , 65 ,     55 ,    115 ,     60 ,         1
+Kangourex     ,Normal   ,         ,105 ,     95 ,     80 ,     90 ,         1
+Hypotrempe    ,Eau      ,         , 30 ,     40 ,     70 ,     60 ,         1
+Hypocéan      ,Eau      ,         , 55 ,     65 ,     95 ,     85 ,         1
+Poissirène    ,Eau      ,         , 45 ,     67 ,     60 ,     63 ,         1
+Poissoroy     ,Eau      ,         , 80 ,     92 ,     65 ,     68 ,         1
+Stari         ,Eau      ,         , 30 ,     45 ,     55 ,     85 ,         1
+Staross       ,Eau      ,Psy      , 60 ,     75 ,     85 ,    115 ,         1
+M. Mime       ,Psy      ,Fée      , 40 ,     45 ,     65 ,     90 ,         1
+Insécateur    ,Insecte  ,Vol      , 70 ,    110 ,     80 ,    105 ,         1
+Lippoutou     ,Glace    ,Psy      , 65 ,     50 ,     35 ,     95 ,         1
+Élektek       ,Electrik ,         , 65 ,     83 ,     57 ,    105 ,         1
+Magmar        ,Feu      ,         , 65 ,     95 ,     57 ,     93 ,         1
+Scarabrute    ,Insecte  ,         , 65 ,    125 ,    100 ,     85 ,         1
+Tauros        ,Normal   ,         , 75 ,    100 ,     95 ,    110 ,         1
+Magicarpe     ,Eau      ,         , 20 ,     10 ,     55 ,     80 ,         1
+Léviator      ,Eau      ,Vol      , 95 ,    125 ,     79 ,     81 ,         1
+Lokhlass      ,Eau      ,Glace    ,130 ,     85 ,     80 ,     60 ,         1
+Métamorph     ,Normal   ,         , 48 ,     48 ,     48 ,     48 ,         1
+Évoli         ,Normal   ,         , 55 ,     55 ,     50 ,     55 ,         1
+Aquali        ,Eau      ,         ,130 ,     65 ,     60 ,     65 ,         1
+Voltali       ,Electrik ,         , 65 ,     65 ,     60 ,    130 ,         1
+Pyroli        ,Feu      ,         , 65 ,    130 ,     60 ,     65 ,         1
+Porygon       ,Normal   ,         , 65 ,     60 ,     70 ,     40 ,         1
+Amonita       ,Roche    ,Eau      , 35 ,     40 ,    100 ,     35 ,         1
+Amonistar     ,Roche    ,Eau      , 70 ,     60 ,    125 ,     55 ,         1
+Kabuto        ,Roche    ,Eau      , 30 ,     80 ,     90 ,     55 ,         1
+Kabutops      ,Roche    ,Eau      , 60 ,    115 ,    105 ,     80 ,         1
+Ptéra         ,Roche    ,Vol      , 80 ,    105 ,     65 ,    130 ,         1
+Ronflex       ,Normal   ,         ,160 ,    110 ,     65 ,     30 ,         1
+Artikodin     ,Glace    ,Vol      , 90 ,     85 ,    100 ,     85 ,         1
+Électhor      ,Electrik ,Vol      , 90 ,     90 ,     85 ,    100 ,         1
+Sulfura       ,Feu      ,Vol      , 90 ,    100 ,     90 ,     90 ,         1
+Minidraco     ,Dragon   ,         , 41 ,     64 ,     45 ,     50 ,         1
+Draco         ,Dragon   ,         , 61 ,     84 ,     65 ,     70 ,         1
+Dracolosse    ,Dragon   ,Vol      , 91 ,    134 ,     95 ,     80 ,         1
+Mewtwo        ,Psy      ,         ,106 ,    110 ,     90 ,    130 ,         1
+Mew           ,Psy      ,         ,100 ,    100 ,    100 ,    100 ,         1
+Germignon     ,Plante   ,         , 45 ,     49 ,     65 ,     45 ,         2
+Macronium     ,Plante   ,         , 60 ,     62 ,     80 ,     60 ,         2
+Méganium      ,Plante   ,         , 80 ,     82 ,    100 ,     80 ,         2
+HérGlacendre  ,Feu      ,         , 39 ,     52 ,     43 ,     65 ,         2
+Feurisson     ,Feu      ,         , 58 ,     64 ,     58 ,     80 ,         2
+Typhlosion    ,Feu      ,         , 78 ,     84 ,     78 ,    100 ,         2
+Kaiminus      ,Eau      ,         , 50 ,     65 ,     64 ,     43 ,         2
+Crocrodil     ,Eau      ,         , 65 ,     80 ,     80 ,     58 ,         2
+Aligatueur    ,Eau      ,         , 85 ,    105 ,    100 ,     78 ,         2
+Fouinette     ,Normal   ,         , 35 ,     46 ,     34 ,     20 ,         2
+Fouinar       ,Normal   ,         , 85 ,     76 ,     64 ,     90 ,         2
+Hoothoot      ,Normal   ,Vol      , 60 ,     30 ,     30 ,     50 ,         2
+Noarfang      ,Normal   ,Vol      ,100 ,     50 ,     50 ,     70 ,         2
+Coxy          ,Insecte  ,Vol      , 40 ,     20 ,     30 ,     55 ,         2
+Coxyclaque    ,Insecte  ,Vol      , 55 ,     35 ,     50 ,     85 ,         2
+Mimigal       ,Insecte  ,Poison   , 40 ,     60 ,     40 ,     30 ,         2
+Migalos       ,Insecte  ,Poison   , 70 ,     90 ,     70 ,     40 ,         2
+Nostenfer     ,Poison   ,Vol      , 85 ,     90 ,     80 ,    130 ,         2
+Loupio        ,Eau      ,Electrik , 75 ,     38 ,     38 ,     67 ,         2
+Lanturn       ,Eau      ,Electrik ,125 ,     58 ,     58 ,     67 ,         2
+Pichu         ,Electrik ,         , 20 ,     40 ,     15 ,     60 ,         2
+Mélo          ,Fée      ,         , 50 ,     25 ,     28 ,     15 ,         2
+Toudoudou     ,Normal   ,Fée      , 90 ,     30 ,     15 ,     15 ,         2
+Togepi        ,Fée      ,         , 35 ,     20 ,     65 ,     20 ,         2
+Togetic       ,Fée      ,Vol      , 55 ,     40 ,     85 ,     40 ,         2
+Natu          ,Psy      ,Vol      , 40 ,     50 ,     45 ,     70 ,         2
+Xatu          ,Psy      ,Vol      , 65 ,     75 ,     70 ,     95 ,         2
+Wattouat      ,Electrik ,         , 55 ,     40 ,     40 ,     35 ,         2
+Lainergie     ,Electrik ,         , 70 ,     55 ,     55 ,     45 ,         2
+Pharamp       ,Electrik ,         , 90 ,     75 ,     85 ,     55 ,         2
+Joliflor      ,Plante   ,         , 75 ,     80 ,     95 ,     50 ,         2
+Marill        ,Eau      ,Fée      , 70 ,     20 ,     50 ,     40 ,         2
+Azumarill     ,Eau      ,Fée      ,100 ,     50 ,     80 ,     50 ,         2
+Simularbre    ,Roche    ,         , 70 ,    100 ,    115 ,     30 ,         2
+Tarpaud       ,Eau      ,         , 90 ,     75 ,     75 ,     70 ,         2
+Granivol      ,Plante   ,Vol      , 35 ,     35 ,     40 ,     50 ,         2
+Floravol      ,Plante   ,Vol      , 55 ,     45 ,     50 ,     80 ,         2
+Cotovol       ,Plante   ,Vol      , 75 ,     55 ,     70 ,    110 ,         2
+Capumain      ,Normal   ,         , 55 ,     70 ,     55 ,     85 ,         2
+Tournegrin    ,Plante   ,         , 30 ,     30 ,     30 ,     30 ,         2
+Héliatronc    ,Plante   ,         , 75 ,     75 ,     55 ,     30 ,         2
+Yanma         ,Insecte  ,Vol      , 65 ,     65 ,     45 ,     95 ,         2
+Axoloto       ,Eau      ,Sol      , 55 ,     45 ,     45 ,     15 ,         2
+Maraiste      ,Eau      ,Sol      , 95 ,     85 ,     85 ,     35 ,         2
+Mentali       ,Psy      ,         , 65 ,     65 ,     60 ,    110 ,         2
+Noctali       ,Ténèbres ,         , 95 ,     65 ,    110 ,     65 ,         2
+Cornèbre      ,Ténèbres ,Vol      , 60 ,     85 ,     42 ,     91 ,         2
+Roigada       ,Eau      ,Psy      , 95 ,     75 ,     80 ,     30 ,         2
+Feuforêve     ,Spectre  ,         , 60 ,     60 ,     60 ,     85 ,         2
+Zarbi         ,Psy      ,         , 48 ,     72 ,     48 ,     48 ,         2
+Qulbutoké     ,Psy      ,         ,190 ,     33 ,     58 ,     33 ,         2
+Girafarig     ,Normal   ,Psy      , 70 ,     80 ,     65 ,     85 ,         2
+Pomdepik      ,Insecte  ,         , 50 ,     65 ,     90 ,     15 ,         2
+Foretress     ,Insecte  ,Acier    , 75 ,     90 ,    140 ,     40 ,         2
+Insolourdo    ,Normal   ,         ,100 ,     70 ,     70 ,     45 ,         2
+Scorplane     ,Sol      ,Vol      , 65 ,     75 ,    105 ,     85 ,         2
+Steelix       ,Acier    ,Sol      , 75 ,     85 ,    200 ,     30 ,         2
+Snubbull      ,Fée      ,         , 60 ,     80 ,     50 ,     30 ,         2
+Granbull      ,Fée      ,         , 90 ,    120 ,     75 ,     45 ,         2
+Qwilfish      ,Eau      ,Poison   , 65 ,     95 ,     75 ,     85 ,         2
+Cizayox       ,Insecte  ,Acier    , 70 ,    130 ,    100 ,     65 ,         2
+Caratroc      ,Insecte  ,Roche    , 20 ,     10 ,    230 ,      5 ,         2
+Scarhino      ,Insecte  ,Combat   , 80 ,    125 ,     75 ,     85 ,         2
+Farfuret      ,Ténèbres ,Glace    , 55 ,     95 ,     55 ,    115 ,         2
+Teddiursa     ,Normal   ,         , 60 ,     80 ,     50 ,     40 ,         2
+Ursaring      ,Normal   ,         , 90 ,    130 ,     75 ,     55 ,         2
+Limagma       ,Feu      ,         , 40 ,     40 ,     40 ,     20 ,         2
+Volcaropod    ,Feu      ,Roche    , 50 ,     50 ,    120 ,     30 ,         2
+Marcacrin     ,Glace    ,Sol      , 50 ,     50 ,     40 ,     50 ,         2
+Cochignon     ,Glace    ,Sol      ,100 ,    100 ,     80 ,     50 ,         2
+Corayon       ,Eau      ,Roche    , 55 ,     55 ,     85 ,     35 ,         2
+Rémoraid      ,Eau      ,         , 35 ,     65 ,     35 ,     65 ,         2
+Octillery     ,Eau      ,         , 75 ,    105 ,     75 ,     45 ,         2
+Cadoizo       ,Glace    ,Vol      , 45 ,     55 ,     45 ,     75 ,         2
+Démanta       ,Eau      ,Vol      , 65 ,     40 ,     70 ,     70 ,         2
+Airmure       ,Acier    ,Vol      , 65 ,     80 ,    140 ,     70 ,         2
+Malosse       ,Ténèbres ,Feu      , 45 ,     60 ,     30 ,     65 ,         2
+Démolosse     ,Ténèbres ,Feu      , 75 ,     90 ,     50 ,     95 ,         2
+Hyporoi       ,Eau      ,Dragon   , 75 ,     95 ,     95 ,     85 ,         2
+Phanpy        ,Sol      ,         , 90 ,     60 ,     60 ,     40 ,         2
+Donphan       ,Sol      ,         , 90 ,    120 ,    120 ,     50 ,         2
+Porygon2      ,Normal   ,         , 85 ,     80 ,     90 ,     60 ,         2
+Cerfrousse    ,Normal   ,         , 73 ,     95 ,     62 ,     85 ,         2
+Queulorior    ,Normal   ,         , 55 ,     20 ,     35 ,     75 ,         2
+DeInsecteant  ,Combat   ,         , 35 ,     35 ,     35 ,     35 ,         2
+Kapoera       ,Combat   ,         , 50 ,     95 ,     95 ,     70 ,         2
+Lippouti      ,Glace    ,Psy      , 45 ,     30 ,     15 ,     65 ,         2
+Élekid        ,Electrik ,         , 45 ,     63 ,     37 ,     95 ,         2
+Magby         ,Feu      ,         , 45 ,     75 ,     37 ,     83 ,         2
+Écrémeuh      ,Normal   ,         , 95 ,     80 ,    105 ,    100 ,         2
+Leuphorie     ,Normal   ,         ,255 ,     10 ,     10 ,     55 ,         2
+Raikou        ,Electrik ,         , 90 ,     85 ,     75 ,    115 ,         2
+Entei         ,Feu      ,         ,115 ,    115 ,     85 ,    100 ,         2
+Suicune       ,Eau      ,         ,100 ,     75 ,    115 ,     85 ,         2
+Embrylex      ,Roche    ,Sol      , 50 ,     64 ,     50 ,     41 ,         2
+Ymphect       ,Roche    ,Sol      , 70 ,     84 ,     70 ,     51 ,         2
+Tyranocif     ,Roche    ,Ténèbres ,100 ,    134 ,    110 ,     61 ,         2
+Lugia         ,Psy      ,Vol      ,106 ,     90 ,    130 ,    110 ,         2
+Ho-Oh         ,Feu      ,Vol      ,106 ,    130 ,     90 ,     90 ,         2
+Celebi        ,Psy      ,Plante   ,100 ,    100 ,    100 ,    100 ,         2
+Arcko         ,Plante   ,         , 40 ,     45 ,     35 ,     70 ,         3
+Massko        ,Plante   ,         , 50 ,     65 ,     45 ,     95 ,         3
+Jungko        ,Plante   ,         , 70 ,     85 ,     65 ,    120 ,         3
+Poussifeu     ,Feu      ,         , 45 ,     60 ,     40 ,     45 ,         3
+Galifeu       ,Feu      ,Combat   , 60 ,     85 ,     60 ,     55 ,         3
+Braségali     ,Feu      ,Combat   , 80 ,    120 ,     70 ,     80 ,         3
+Gobou         ,Eau      ,         , 50 ,     70 ,     50 ,     40 ,         3
+Flobio        ,Eau      ,Sol      , 70 ,     85 ,     70 ,     50 ,         3
+Laggron       ,Eau      ,Sol      ,100 ,    110 ,     90 ,     60 ,         3
+Medhyèna      ,Ténèbres ,         , 35 ,     55 ,     35 ,     35 ,         3
+Grahyèna      ,Ténèbres ,         , 70 ,     90 ,     70 ,     70 ,         3
+Zigzaton      ,Normal   ,         , 38 ,     30 ,     41 ,     60 ,         3
+Linéon        ,Normal   ,         , 78 ,     70 ,     61 ,    100 ,         3
+Chenipotte    ,Insecte  ,         , 45 ,     45 ,     35 ,     20 ,         3
+Armulys       ,Insecte  ,         , 50 ,     35 ,     55 ,     15 ,         3
+Charmillon    ,Insecte  ,Vol      , 60 ,     70 ,     50 ,     65 ,         3
+Blindalys     ,Insecte  ,         , 50 ,     35 ,     55 ,     15 ,         3
+Papinox       ,Insecte  ,Poison   , 60 ,     50 ,     70 ,     65 ,         3
+Nénupiot      ,Eau      ,Plante   , 40 ,     30 ,     30 ,     30 ,         3
+Lombre        ,Eau      ,Plante   , 60 ,     50 ,     50 ,     50 ,         3
+Ludicolo      ,Eau      ,Plante   , 80 ,     70 ,     70 ,     70 ,         3
+Grainipiot    ,Plante   ,         , 40 ,     40 ,     50 ,     30 ,         3
+Pifeuil       ,Plante   ,Ténèbres , 70 ,     70 ,     40 ,     60 ,         3
+TengalGlace   ,Plante   ,Ténèbres , 90 ,    100 ,     60 ,     80 ,         3
+Nirondelle    ,Normal   ,Vol      , 40 ,     55 ,     30 ,     85 ,         3
+Hélédelle     ,Normal   ,Vol      , 60 ,     85 ,     60 ,    125 ,         3
+Goélise       ,Eau      ,Vol      , 40 ,     30 ,     30 ,     85 ,         3
+Bekipan       ,Eau      ,Vol      , 60 ,     50 ,    100 ,     65 ,         3
+Tarsal        ,Psy      ,Fée      , 28 ,     25 ,     25 ,     40 ,         3
+Kirlia        ,Psy      ,Fée      , 38 ,     35 ,     35 ,     50 ,         3
+Gardevoir     ,Psy      ,Fée      , 68 ,     65 ,     65 ,     80 ,         3
+Arakdo        ,Insecte  ,Eau      , 40 ,     30 ,     32 ,     65 ,         3
+Maskadra      ,Insecte  ,Vol      , 70 ,     60 ,     62 ,     60 ,         3
+Balignon      ,Plante   ,         , 60 ,     40 ,     60 ,     35 ,         3
+Chapignon     ,Plante   ,Combat   , 60 ,    130 ,     80 ,     70 ,         3
+Parecool      ,Normal   ,         , 60 ,     60 ,     60 ,     30 ,         3
+Vigoroth      ,Normal   ,         , 80 ,     80 ,     80 ,     90 ,         3
+Monaflèmit    ,Normal   ,         ,150 ,    160 ,    100 ,    100 ,         3
+Ningale       ,Insecte  ,Sol      , 31 ,     45 ,     90 ,     40 ,         3
+Ninjask       ,Insecte  ,Vol      , 61 ,     90 ,     45 ,    160 ,         3
+Munja         ,Insecte  ,Spectre  ,  1 ,     90 ,     45 ,     40 ,         3
+Chuchmur      ,Normal   ,         , 64 ,     51 ,     23 ,     28 ,         3
+Ramboum       ,Normal   ,         , 84 ,     71 ,     43 ,     48 ,         3
+Brouhabam     ,Normal   ,         ,104 ,     91 ,     63 ,     68 ,         3
+Makuhita      ,Combat   ,         , 72 ,     60 ,     30 ,     25 ,         3
+Hariyama      ,Combat   ,         ,144 ,    120 ,     60 ,     50 ,         3
+Azurill       ,Normal   ,Fée      , 50 ,     20 ,     40 ,     20 ,         3
+Tarinor       ,Roche    ,         , 30 ,     45 ,    135 ,     30 ,         3
+Skitty        ,Normal   ,         , 50 ,     45 ,     45 ,     50 ,         3
+Delcatty      ,Normal   ,         , 70 ,     65 ,     65 ,     70 ,         3
+Ténéfix       ,Ténèbres ,Spectre  , 50 ,     75 ,     75 ,     50 ,         3
+Mysdibule     ,Acier    ,Fée      , 50 ,     85 ,     85 ,     50 ,         3
+Galekid       ,Acier    ,Roche    , 50 ,     70 ,    100 ,     30 ,         3
+Galegon       ,Acier    ,Roche    , 60 ,     90 ,    140 ,     40 ,         3
+Galeking      ,Acier    ,Roche    , 70 ,    110 ,    180 ,     50 ,         3
+Méditikka     ,Combat   ,Psy      , 30 ,     40 ,     55 ,     60 ,         3
+Charmina      ,Combat   ,Psy      , 60 ,     60 ,     75 ,     80 ,         3
+Dynavolt      ,Electrik ,         , 40 ,     45 ,     40 ,     65 ,         3
+Élecsprint    ,Electrik ,         , 70 ,     75 ,     60 ,    105 ,         3
+Posipi        ,Electrik ,         , 60 ,     50 ,     40 ,     95 ,         3
+Négapi        ,Electrik ,         , 60 ,     40 ,     50 ,     95 ,         3
+Muciole       ,Insecte  ,         , 65 ,     73 ,     55 ,     85 ,         3
+Lumivole      ,Insecte  ,         , 65 ,     47 ,     55 ,     85 ,         3
+Rosélia       ,Plante   ,Poison   , 50 ,     60 ,     45 ,     65 ,         3
+Gloupti       ,Poison   ,         , 70 ,     43 ,     53 ,     40 ,         3
+Avaltout      ,Poison   ,         ,100 ,     73 ,     83 ,     55 ,         3
+Carvanha      ,Eau      ,Ténèbres , 45 ,     90 ,     20 ,     65 ,         3
+Sharpedo      ,Eau      ,Ténèbres , 70 ,    120 ,     40 ,     95 ,         3
+Wailmer       ,Eau      ,         ,130 ,     70 ,     35 ,     60 ,         3
+Wailord       ,Eau      ,         ,170 ,     90 ,     45 ,     60 ,         3
+Chamallot     ,Feu      ,Sol      , 60 ,     60 ,     40 ,     35 ,         3
+Camérupt      ,Feu      ,Sol      , 70 ,    100 ,     70 ,     40 ,         3
+Chartor       ,Feu      ,         , 70 ,     85 ,    140 ,     20 ,         3
+Spoink        ,Psy      ,         , 60 ,     25 ,     35 ,     60 ,         3
+Groret        ,Psy      ,         , 80 ,     45 ,     65 ,     80 ,         3
+Spinda        ,Normal   ,         , 60 ,     60 ,     60 ,     60 ,         3
+Kraknoix      ,Sol      ,         , 45 ,    100 ,     45 ,     10 ,         3
+Vibraninf     ,Sol      ,Dragon   , 50 ,     70 ,     50 ,     70 ,         3
+Libégon       ,Sol      ,Dragon   , 80 ,    100 ,     80 ,    100 ,         3
+Cacnea        ,Plante   ,         , 50 ,     85 ,     40 ,     35 ,         3
+Cacturne      ,Plante   ,Ténèbres , 70 ,    115 ,     60 ,     55 ,         3
+Tylton        ,Normal   ,Vol      , 45 ,     40 ,     60 ,     50 ,         3
+Altaria       ,Dragon   ,Vol      , 75 ,     70 ,     90 ,     80 ,         3
+Mangriff      ,Normal   ,         , 73 ,    115 ,     60 ,     90 ,         3
+Séviper       ,Poison   ,         , 73 ,    100 ,     60 ,     65 ,         3
+Séléroc       ,Roche    ,Psy      , 70 ,     55 ,     65 ,     70 ,         3
+Solaroc       ,Roche    ,Psy      , 70 ,     95 ,     85 ,     70 ,         3
+Barloche      ,Eau      ,Sol      , 50 ,     48 ,     43 ,     60 ,         3
+Barbicha      ,Eau      ,Sol      ,110 ,     78 ,     73 ,     60 ,         3
+Écrapince     ,Eau      ,         , 43 ,     80 ,     65 ,     35 ,         3
+Colhomard     ,Eau      ,Ténèbres , 63 ,    120 ,     85 ,     55 ,         3
+Balbuto       ,Sol      ,Psy      , 40 ,     40 ,     55 ,     55 ,         3
+Kaorine       ,Sol      ,Psy      , 60 ,     70 ,    105 ,     75 ,         3
+Lilia         ,Roche    ,Plante   , 66 ,     41 ,     77 ,     23 ,         3
+Vacilys       ,Roche    ,Plante   , 86 ,     81 ,     97 ,     43 ,         3
+Anorith       ,Roche    ,Insecte  , 45 ,     95 ,     50 ,     75 ,         3
+Armaldo       ,Roche    ,Insecte  , 75 ,    125 ,    100 ,     45 ,         3
+Barpau        ,Eau      ,         , 20 ,     15 ,     20 ,     80 ,         3
+Milobellus    ,Eau      ,         , 95 ,     60 ,     79 ,     81 ,         3
+Morphéo       ,Normal   ,         , 70 ,     70 ,     70 ,     70 ,         3
+Kecleon       ,Normal   ,         , 60 ,     90 ,     70 ,     40 ,         3
+Polichombr    ,Spectre  ,         , 44 ,     75 ,     35 ,     45 ,         3
+Branette      ,Spectre  ,         , 64 ,    115 ,     65 ,     65 ,         3
+Skelénox      ,Spectre  ,         , 20 ,     40 ,     90 ,     25 ,         3
+Téraclope     ,Spectre  ,         , 40 ,     70 ,    130 ,     25 ,         3
+Tropius       ,Plante   ,Vol      , 99 ,     68 ,     83 ,     51 ,         3
+Éoko          ,Psy      ,         , 65 ,     50 ,     70 ,     65 ,         3
+Absol         ,Ténèbres ,         , 65 ,    130 ,     60 ,     75 ,         3
+Okéoké        ,Psy      ,         , 95 ,     23 ,     48 ,     23 ,         3
+Stalgamin     ,Glace    ,         , 50 ,     50 ,     50 ,     50 ,         3
+Oniglali      ,Glace    ,         , 80 ,     80 ,     80 ,     80 ,         3
+Obalie        ,Glace    ,Eau      , 70 ,     40 ,     50 ,     25 ,         3
+Phogleur      ,Glace    ,Eau      , 90 ,     60 ,     70 ,     45 ,         3
+Kaimorse      ,Glace    ,Eau      ,110 ,     80 ,     90 ,     65 ,         3
+Coquiperl     ,Eau      ,         , 35 ,     64 ,     85 ,     32 ,         3
+Serpang       ,Eau      ,         , 55 ,    104 ,    105 ,     52 ,         3
+Rosabyss      ,Eau      ,         , 55 ,     84 ,    105 ,     52 ,         3
+Relicanth     ,Eau      ,Roche    ,100 ,     90 ,    130 ,     55 ,         3
+Lovdisc       ,Eau      ,         , 43 ,     30 ,     55 ,     97 ,         3
+Draby         ,Dragon   ,         , 45 ,     75 ,     60 ,     50 ,         3
+Drackhaus     ,Dragon   ,         , 65 ,     95 ,    100 ,     50 ,         3
+Drattak       ,Dragon   ,Vol      , 95 ,    135 ,     80 ,    100 ,         3
+Terhal        ,Acier    ,Psy      , 40 ,     55 ,     80 ,     30 ,         3
+Métang        ,Acier    ,Psy      , 60 ,     75 ,    100 ,     50 ,         3
+Métalosse     ,Acier    ,Psy      , 80 ,    135 ,    130 ,     70 ,         3
+RegiRoche     ,Roche    ,         , 80 ,    100 ,    200 ,     50 ,         3
+RegGlace      ,Glace    ,         , 80 ,     50 ,    100 ,     50 ,         3
+RegiAcier     ,Acier    ,         , 80 ,     75 ,    150 ,     50 ,         3
+Latias        ,Dragon   ,Psy      , 80 ,     80 ,     90 ,    110 ,         3
+Latios        ,Dragon   ,Psy      , 80 ,     90 ,     80 ,    110 ,         3
+Kyogre        ,Eau      ,         ,100 ,    100 ,     90 ,     90 ,         3
+Primo-Kyogre  ,Eau      ,         ,100 ,    150 ,     90 ,     90 ,         3
+Groudon       ,Sol      ,         ,100 ,    150 ,    140 ,     90 ,         3
+Primo-Groudon ,Sol      ,Feu      ,100 ,    180 ,    160 ,     90 ,         3
+Rayquaza      ,Dragon   ,Vol      ,105 ,    150 ,     90 ,     95 ,         3
+Jirachi       ,Acier    ,Psy      ,100 ,    100 ,    100 ,    100 ,         3
+Deoxys        ,Psy      ,         , 50 ,    150 ,     50 ,    150 ,         3
+Tortipouss    ,Plante   ,         , 55 ,     68 ,     64 ,     31 ,         4
+Boskara       ,Plante   ,         , 75 ,     89 ,     85 ,     36 ,         4
+Torterra      ,Plante   ,Sol      , 95 ,    109 ,    105 ,     56 ,         4
+Ouisticram    ,Feu      ,         , 44 ,     58 ,     44 ,     61 ,         4
+Chimpenfeu    ,Feu      ,Combat   , 64 ,     78 ,     52 ,     81 ,         4
+Simiabraz     ,Feu      ,Combat   , 76 ,    104 ,     71 ,    108 ,         4
+Tiplouf       ,Eau      ,         , 53 ,     51 ,     53 ,     40 ,         4
+Prinplouf     ,Eau      ,         , 64 ,     66 ,     68 ,     50 ,         4
+Pingoléon     ,Eau      ,Acier    , 84 ,     86 ,     88 ,     60 ,         4
+Étourmi       ,Normal   ,Vol      , 40 ,     55 ,     30 ,     60 ,         4
+Étourvol      ,Normal   ,Vol      , 55 ,     75 ,     50 ,     80 ,         4
+Étouraptor    ,Normal   ,Vol      , 85 ,    120 ,     70 ,    100 ,         4
+Keunotor      ,Normal   ,         , 59 ,     45 ,     40 ,     31 ,         4
+Castorno      ,Normal   ,Eau      , 79 ,     85 ,     60 ,     71 ,         4
+Crikzik       ,Insecte  ,         , 37 ,     25 ,     41 ,     25 ,         4
+Mélokrik      ,Insecte  ,         , 77 ,     85 ,     51 ,     65 ,         4
+Lixy          ,Electrik ,         , 45 ,     65 ,     34 ,     45 ,         4
+Luxio         ,Electrik ,         , 60 ,     85 ,     49 ,     60 ,         4
+Luxray        ,Electrik ,         , 80 ,    120 ,     79 ,     70 ,         4
+Rozbouton     ,Plante   ,Poison   , 40 ,     30 ,     35 ,     55 ,         4
+Roserade      ,Plante   ,Poison   , 60 ,     70 ,     65 ,     90 ,         4
+Kranidos      ,Roche    ,         , 67 ,    125 ,     40 ,     58 ,         4
+Charkos       ,Roche    ,         , 97 ,    165 ,     60 ,     58 ,         4
+Dinoclier     ,Roche    ,Acier    , 30 ,     42 ,    118 ,     30 ,         4
+Bastiodon     ,Roche    ,Acier    , 60 ,     52 ,    168 ,     30 ,         4
+Cheniti       ,Insecte  ,         , 40 ,     29 ,     45 ,     36 ,         4
+Cheniselle    ,Insecte  ,Plante   , 60 ,     59 ,     85 ,     36 ,         4
+Papilord      ,Insecte  ,Vol      , 70 ,     94 ,     50 ,     66 ,         4
+Apitrini      ,Insecte  ,Vol      , 30 ,     30 ,     42 ,     70 ,         4
+Apireine      ,Insecte  ,Vol      , 70 ,     80 ,    102 ,     40 ,         4
+Pachirisu     ,Electrik ,         , 60 ,     45 ,     70 ,     95 ,         4
+Mustébouée    ,Eau      ,         , 55 ,     65 ,     35 ,     85 ,         4
+Mustéflott    ,Eau      ,         , 85 ,    105 ,     55 ,    115 ,         4
+Ceribou       ,Plante   ,         , 45 ,     35 ,     45 ,     35 ,         4
+Ceriflor      ,Plante   ,         , 70 ,     60 ,     70 ,     85 ,         4
+Sancoki       ,Eau      ,         , 76 ,     48 ,     48 ,     34 ,         4
+Tritosor      ,Eau      ,Sol      ,111 ,     83 ,     68 ,     39 ,         4
+Capidextre    ,Normal   ,         , 75 ,    100 ,     66 ,    115 ,         4
+Baudrive      ,Spectre  ,Vol      , 90 ,     50 ,     34 ,     70 ,         4
+Grodrive      ,Spectre  ,Vol      ,150 ,     80 ,     44 ,     80 ,         4
+Laporeille    ,Normal   ,         , 55 ,     66 ,     44 ,     85 ,         4
+Lockpin       ,Normal   ,         , 65 ,     76 ,     84 ,    105 ,         4
+Magirêve      ,Spectre  ,         , 60 ,     60 ,     60 ,    105 ,         4
+Corboss       ,Ténèbres ,Vol      ,100 ,    125 ,     52 ,     71 ,         4
+Chaglam       ,Normal   ,         , 49 ,     55 ,     42 ,     85 ,         4
+Chaffreux     ,Normal   ,         , 71 ,     82 ,     64 ,    112 ,         4
+Korillon      ,Psy      ,         , 45 ,     30 ,     50 ,     45 ,         4
+Moufouette    ,Poison   ,Ténèbres , 63 ,     63 ,     47 ,     74 ,         4
+Moufflair     ,Poison   ,Ténèbres ,103 ,     93 ,     67 ,     84 ,         4
+Archéomire    ,Acier    ,Psy      , 57 ,     24 ,     86 ,     23 ,         4
+Archéodong    ,Acier    ,Psy      , 67 ,     89 ,    116 ,     33 ,         4
+Manzaï        ,Roche    ,         , 50 ,     80 ,     95 ,     10 ,         4
+Mime Jr.      ,Psy      ,Fée      , 20 ,     25 ,     45 ,     60 ,         4
+Ptiravi       ,Normal   ,         ,100 ,      5 ,      5 ,     30 ,         4
+Pijako        ,Normal   ,Vol      , 76 ,     65 ,     45 ,     91 ,         4
+Spiritomb     ,Spectre  ,Ténèbres , 50 ,     92 ,    108 ,     35 ,         4
+Griknot       ,Dragon   ,Sol      , 58 ,     70 ,     45 ,     42 ,         4
+Carmache      ,Dragon   ,Sol      , 68 ,     90 ,     65 ,     82 ,         4
+Carchacrok    ,Dragon   ,Sol      ,108 ,    130 ,     95 ,    102 ,         4
+Goinfrex      ,Normal   ,         ,135 ,     85 ,     40 ,      5 ,         4
+Riolu         ,Combat   ,         , 40 ,     70 ,     40 ,     60 ,         4
+Lucario       ,Combat   ,Acier    , 70 ,    110 ,     70 ,     90 ,         4
+Hippopotas    ,Sol      ,         , 68 ,     72 ,     78 ,     32 ,         4
+Hippodocus    ,Sol      ,         ,108 ,    112 ,    118 ,     47 ,         4
+Rapion        ,Poison   ,Insecte  , 40 ,     50 ,     90 ,     65 ,         4
+Drascore      ,Poison   ,Ténèbres , 70 ,     90 ,    110 ,     95 ,         4
+Cradopaud     ,Poison   ,Combat   , 48 ,     61 ,     40 ,     50 ,         4
+Coatox        ,Poison   ,Combat   , 83 ,    106 ,     65 ,     85 ,         4
+Vortente      ,Plante   ,         , 74 ,    100 ,     72 ,     46 ,         4
+Écayon        ,Eau      ,         , 49 ,     49 ,     56 ,     66 ,         4
+Luminéon      ,Eau      ,         , 69 ,     69 ,     76 ,     91 ,         4
+Babimanta     ,Eau      ,Vol      , 45 ,     20 ,     50 ,     50 ,         4
+Blizzi        ,Plante   ,Glace    , 60 ,     62 ,     50 ,     40 ,         4
+Blizzaroi     ,Plante   ,Glace    , 90 ,     92 ,     75 ,     60 ,         4
+Dimoret       ,Ténèbres ,Glace    , 70 ,    120 ,     65 ,    125 ,         4
+Magnézone     ,Electrik ,Acier    , 70 ,     70 ,    115 ,     60 ,         4
+Coudlangue    ,Normal   ,         ,110 ,     85 ,     95 ,     50 ,         4
+Rhinastoc     ,Sol      ,Roche    ,115 ,    140 ,    130 ,     40 ,         4
+Bouldeneu     ,Plante   ,         ,100 ,    100 ,    125 ,     50 ,         4
+Élekable      ,Electrik ,         , 75 ,    123 ,     67 ,     95 ,         4
+Maganon       ,Feu      ,         , 75 ,     95 ,     67 ,     83 ,         4
+Togekiss      ,Fée      ,Vol      , 85 ,     50 ,     95 ,     80 ,         4
+Yanmega       ,Insecte  ,Vol      , 86 ,     76 ,     86 ,     95 ,         4
+Phyllali      ,Plante   ,         , 65 ,    110 ,    130 ,     95 ,         4
+Givrali       ,Glace    ,         , 65 ,     60 ,    110 ,     65 ,         4
+Scorvol       ,Sol      ,Vol      , 75 ,     95 ,    125 ,     95 ,         4
+Mammochon     ,Glace    ,Sol      ,110 ,    130 ,     80 ,     80 ,         4
+Porygon-Z     ,Normal   ,         , 85 ,     80 ,     70 ,     90 ,         4
+Gallame       ,Psy      ,Combat   , 68 ,    125 ,     65 ,     80 ,         4
+Tarinorme     ,Roche    ,Acier    , 60 ,     55 ,    145 ,     40 ,         4
+Noctunoir     ,Spectre  ,         , 45 ,    100 ,    135 ,     45 ,         4
+Momartik      ,Glace    ,Spectre  , 70 ,     80 ,     70 ,    110 ,         4
+Motisma       ,Electrik ,Spectre  , 50 ,     50 ,     77 ,     91 ,         4
+Créhelf       ,Psy      ,         , 75 ,     75 ,    130 ,     95 ,         4
+Créfollet     ,Psy      ,         , 80 ,    105 ,    105 ,     80 ,         4
+Créfadet      ,Psy      ,         , 75 ,    125 ,     70 ,    115 ,         4
+Dialga        ,Acier    ,Dragon   ,100 ,    120 ,    120 ,     90 ,         4
+Palkia        ,Eau      ,Dragon   , 90 ,    120 ,    100 ,    100 ,         4
+Heatran       ,Feu      ,Acier    , 91 ,     90 ,    106 ,     77 ,         4
+Regigigas     ,Normal   ,         ,110 ,    160 ,    110 ,    100 ,         4
+Giratina      ,Spectre  ,Dragon   ,150 ,    100 ,    120 ,     90 ,         4
+Cresselia     ,Psy      ,         ,120 ,     70 ,    120 ,     85 ,         4
+Phione        ,Eau      ,         , 80 ,     80 ,     80 ,     80 ,         4
+Manaphy       ,Eau      ,         ,100 ,    100 ,    100 ,    100 ,         4
+Darkrai       ,Ténèbres ,         , 70 ,     90 ,     90 ,    125 ,         4
+Shaymin       ,Plante   ,         ,100 ,    100 ,    100 ,    100 ,         4
+Arceus        ,Normal   ,         ,120 ,    120 ,    120 ,    120 ,         4
