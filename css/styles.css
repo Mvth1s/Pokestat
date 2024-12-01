@@ -15,20 +15,19 @@ body {
 	font-size: 3.6em;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 h1 {
 	font-family: "Pokemon Hollow";
 }
 header {
-	text-align: center;
 	padding: 20px;
 	background-color: #ffcb05;
 	color: #2a75bb;
 }
 
-#type-selector {
-	margin: 20px auto;
-	display: block;
+#type-selector, #gen-selector {
+	margin: 20px;
 	padding: 10px;
 	font-size: 16px;
 	border: 1px solid #ccc;
