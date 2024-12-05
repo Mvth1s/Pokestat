@@ -8,7 +8,7 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #c9c9c994;
+	background-color: #ffffff;
 }
 .pokemonTitle {
 	font-family: "Pokemon Hollow", sans-serif;
@@ -21,7 +21,6 @@ h1 {
 	font-family: "Pokemon Hollow";
 }
 header {
-	padding: 20px;
 	background-color: #ffcb05;
 	color: #2a75bb;
 }
@@ -45,7 +44,6 @@ header {
 
 .pokemon-card {
 	width: 250px;
-	padding: 20px;
 	border-radius: 15px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	text-align: center;
@@ -77,6 +75,11 @@ header {
 }
 
 .PokemonName {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a {
 	text-decoration: none;
 	color: #ffffff;
 }
