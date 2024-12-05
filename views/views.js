@@ -58,9 +58,9 @@ class PokemonView {
 				}
 
 				pokemonCard.innerHTML = `
-                    <h1><a href="${result.pokemon}" class="PokemonName">${
+                    <a href="${result.pokemon}"><div><h1 class="PokemonName">${
 					result.name
-				}</a></h1>
+				}</h1>
                     <p>N° Pokédex : ${result.number}</p>
                     <img src="${result.image}" alt="${result.name}">
                     <div class="pokemon-types">
@@ -72,7 +72,7 @@ class PokemonView {
                         <li>Attaque: ${result.attack}</li>
                         <li>Défense: ${result.defense}</li>
                         <li>Vitesse: ${result.speed}</li>
-                    </ul>
+                    </ul></div></a>
                 `;
 				this.pokemonContainer.appendChild(pokemonCard);
 			}

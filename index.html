@@ -10,27 +10,35 @@
 	<body>
 		<header>
 			<h1 class="pokemonTitle">Pokémon Stats</h1>
-			<select id="type-selector">
-				<option value="all">Tous les types</option>
-				<option value="Normal Type">Normal</option>
-				<option value="Fighting Type">Combat</option>
-				<option value="Flying Type">Vol</option>
-				<option value="Poison Type">Poison</option>
-				<option value="Ground Type">Sol</option>
-				<option value="Rock Type">Roche</option>
-				<option value="Bug Type">Insecte</option>
-				<option value="Ghost Type">Spectre</option>
-				<option value="Steel Type">Acier</option>
-				<option value="Fire Type">Feu</option>
-				<option value="Water Type">Eau</option>
-				<option value="Grass Type">Plante</option>
-				<option value="Electric Type">Électrik</option>
-				<option value="Psychic Type">Psy</option>
-				<option value="Ice Type">Glace</option>
-				<option value="Dragon Type">Dragon</option>
-				<option value="Dark Type">Ténèbres</option>
-				<!-- <option value="Fairy Type">Fée</option> -->
-			</select>
+			<div style="display: flex; justify-content: center;">
+				<select id="type-selector">
+					<option value="all">Tous les types</option>
+					<option value="Normal Type">Normal</option>
+					<option value="Fighting Type">Combat</option>
+					<option value="Flying Type">Vol</option>
+					<option value="Poison Type">Poison</option>
+					<option value="Ground Type">Sol</option>
+					<option value="Rock Type">Roche</option>
+					<option value="Bug Type">Insecte</option>
+					<option value="Ghost Type">Spectre</option>
+					<option value="Steel Type">Acier</option>
+					<option value="Fire Type">Feu</option>
+					<option value="Water Type">Eau</option>
+					<option value="Grass Type">Plante</option>
+					<option value="Electric Type">Électrik</option>
+					<option value="Psychic Type">Psy</option>
+					<option value="Ice Type">Glace</option>
+					<option value="Dragon Type">Dragon</option>
+					<option value="Dark Type">Ténèbres</option>
+				</select>
+				<select id="gen-selector">
+					<option value="all">Toutes les générations</option>
+					<option value="1">1er génération</option>
+					<option value="2">2eme génération</option>
+					<option value="3">3eme génération</option>
+					<option value="4">4eme génération</option>
+				</select>
+			</div>
 		</header>
 		<div class="cards-container" id="cards-container"></div>
 
