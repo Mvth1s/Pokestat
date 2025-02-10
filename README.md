@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 _Mathis AGUADO_
 _Alexy-Alan HEMERY_
 _TP5A_
@@ -67,3 +68,6 @@ Voir le fichier : `model.js`.
 ### Visualisation des résultats
 
 -   Double-cliquer sur `index.html` pour afficher les résultats.
+=======
+# Pokestat
+>>>>>>> ecf6a8a05644892ee9d6faea6829a27682c5bc4f
