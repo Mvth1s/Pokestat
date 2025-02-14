@@ -4,13 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Pokémon stats</title>
-		<link rel="icon" href="img/Pokemon-Symbol-logo.png" type="image/x-icon" />
+		<link
+			rel="icon"
+			href="img/Pokemon-Symbol-logo.png"
+			type="image/x-icon" />
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
 		<header>
 			<h1 class="pokemonTitle">Pokémon Stats</h1>
-			<div style="display: flex; justify-content: center;">
+			<div style="display: flex; justify-content: center">
 				<select id="type-selector">
 					<option value="all">Tous les types</option>
 					<option value="Normal Type">Normal</option>
@@ -50,8 +53,16 @@
 				const model = new PokemonModel();
 				const statModel = new PokemonStatModel();
 				const view = new PokemonView();
-				const controller = new PokemonController(model, statModel, view);
+				const controller = new PokemonController(
+					model,
+					statModel,
+					view
+				);
 			});
 		</script>
+		<footer class="footer">
+			<p class="copyright">© Projet 2024 - IUT D'Orsay</p>
+			<p class="auteur">Alexy Alan HEMERY - Mathis AGUADO</p>
+		</footer>
 	</body>
 </html>

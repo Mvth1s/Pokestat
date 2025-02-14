@@ -83,3 +83,22 @@ a {
 	text-decoration: none;
 	color: #ffffff;
 }
+
+.footer {
+	background-color: #ffcb05;
+	color: #2a75bb;
+	text-align: center;
+	padding: 10px;
+	/* width: 100%; */
+}
+.footer .copyright {
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+.footer .auteur{
+	font-size: 1em;
+    font-weight: bold;
+    margin: .5em;
+}
